@@ -338,5 +338,22 @@
     "tags": ["가용데이터", "RDB", "NoSQL"],
     "difficulty": "중",
     "questionType": "concept"
+  },
+  {
+    "id": "p2c1_021",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "SEMMA 방법론의 단계 중, 탐색적 데이터 분석(EDA)을 통해 변수 간 관계와 이상값·패턴을 파악하는 단계는?",
+    "options": [
+      "Sample (표본추출)",
+      "Explore (탐색)",
+      "Modify (수정·가공)",
+      "Assess (평가)"
+    ],
+    "answer": 1,
+    "explanation": "Explore(탐색) 단계는 추출된 표본 데이터에 대해 탐색적 데이터 분석(EDA)을 수행하여 변수 간 관계, 이상값, 패턴을 파악하는 단계이다. Modify 단계는 이 탐색 결과를 바탕으로 파생변수 생성 등 데이터를 가공하는 단계이다.",
+    "tags": ["SEMMA", "Explore"],
+    "difficulty": "중",
+    "questionType": "concept"
   }
 ]

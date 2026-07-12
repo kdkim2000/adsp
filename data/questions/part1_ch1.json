@@ -253,5 +253,39 @@
         "tags": ["종합 이해", "SECI 모델", "데이터 특성"],
         "difficulty": "상",
         "questionType": "concept"
+    },
+    {
+        "id": "p1c1_016",
+        "part": 1,
+        "chapter": "part1_ch1",
+        "content": "데이터베이스(Database)가 갖추어야 할 4대 특징에 해당하지 않는 것은?",
+        "options": [
+            "공유 데이터(Shared Data)",
+            "통합 데이터(Integrated Data)",
+            "비휘발성 데이터(Non-volatile Data)",
+            "운영(변화) 데이터(Operational Data)"
+        ],
+        "answer": 2,
+        "explanation": "데이터베이스의 4대 특징은 공유 데이터, 통합 데이터, 저장 데이터, 운영(변화) 데이터입니다. 비휘발성(Non-volatile)은 데이터 웨어하우스의 특성이지 데이터베이스 자체의 4대 특징이 아닙니다.",
+        "tags": ["데이터베이스", "4대 특징"],
+        "difficulty": "중",
+        "questionType": "concept"
+    },
+    {
+        "id": "p1c1_017",
+        "part": 1,
+        "chapter": "part1_ch1",
+        "content": "데이터베이스의 특징 중 '조직의 고유 업무를 수행하는 데 반드시 필요하며, 지속적으로 갱신·삭제·추가되며 변화하는 데이터'를 의미하는 것은?",
+        "options": [
+            "저장 데이터(Stored Data)",
+            "운영 데이터(Operational Data)",
+            "통합 데이터(Integrated Data)",
+            "공유 데이터(Shared Data)"
+        ],
+        "answer": 1,
+        "explanation": "운영(변화) 데이터는 조직의 고유 업무 수행을 위해 실시간으로 지속 갱신되는 데이터를 의미합니다. 저장 데이터는 컴퓨터 접근 가능한 매체에 저장됨을, 통합 데이터는 최소 중복으로 통합 관리됨을, 공유 데이터는 여러 사용자가 공동 이용함을 뜻합니다.",
+        "tags": ["데이터베이스", "운영 데이터"],
+        "difficulty": "하",
+        "questionType": "concept"
     }
 ]

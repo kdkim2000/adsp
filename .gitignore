@@ -46,4 +46,4 @@ scripts/exam2_raw.txt
 data/questions/backup/
 
 # DAsP → ADsP 전환 전 백업 (구버전 콘텐츠, 서비스에 불필요)
-backup_dasp_20260712/
+docs/journal/history.md

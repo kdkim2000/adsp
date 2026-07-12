@@ -372,5 +372,39 @@
     "tags": ["과제 관리 프로세스", "과제 발굴"],
     "difficulty": "하",
     "questionType": "concept"
+  },
+  {
+    "id": "p2c2_023",
+    "part": 2,
+    "chapter": "part2_ch2",
+    "content": "분석 마스터플랜의 세부 이행 계획을 수립할 때, 위험 분석(Risk Analysis)을 매 반복 주기(iteration)마다 수행하며 점진적으로 완성도를 높여가는 반복적 정련 방식을 지칭하는 모델은?",
+    "options": [
+      "폭포수 모델(Waterfall Model)",
+      "나선형 모델(Spiral Model)",
+      "애자일 스크럼(Agile Scrum)",
+      "V-모델(V-Model)"
+    ],
+    "answer": 1,
+    "explanation": "나선형 모델(Spiral Model)은 순차적인 폭포수 개발과 반복적 프로토타이핑을 결합하여, 매 반복마다 위험 분석을 수행하며 점진적으로 완성도를 높여가는 모델이다. 분석 마스터플랜의 세부 이행계획은 이러한 반복적 정련(나선형) 방식을 채택한다.",
+    "tags": ["세부이행계획", "나선형모델"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c2_024",
+    "part": 2,
+    "chapter": "part2_ch2",
+    "content": "분석 성숙도(Maturity) 모델의 진단 대상 3개 부문 중, 데이터 관리 체계·분석 전용 인프라·시각화 환경 등 기술적 기반의 수준을 평가하는 부문은?",
+    "options": [
+      "비즈니스 부문",
+      "조직·역량 부문",
+      "IT 부문",
+      "거버넌스 부문"
+    ],
+    "answer": 2,
+    "explanation": "분석 성숙도 모델의 3개 진단부문 중 IT 부문은 데이터 관리 체계, 분석 전용 인프라·플랫폼, 시각화·분석 환경 등 기술적 기반의 수준을 평가한다. 비즈니스 부문은 분석 결과의 업무 활용도를, 조직·역량 부문은 전담조직과 전문인력 수준을 평가한다.",
+    "tags": ["분석성숙도", "IT부문"],
+    "difficulty": "중",
+    "questionType": "concept"
   }
 ]

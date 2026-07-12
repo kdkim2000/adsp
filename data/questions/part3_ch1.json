@@ -49,5 +49,209 @@
     "tags": ["이상값", "전처리"],
     "difficulty": "중",
     "questionType": "concept"
+  },
+  {
+    "id": "p3c1_004",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "데이터 웨어하우스(DW)의 4대 특성 중, 업무 프로세스가 아니라 고객·상품·거래와 같은 특정 비즈니스 관심사를 중심으로 데이터를 구성하는 특성은?",
+    "options": [
+      "주제 지향적(Subject-Oriented)",
+      "통합성(Integrated)",
+      "시계열성(Time-variant)",
+      "비휘발성(Non-volatile)"
+    ],
+    "answer": 0,
+    "explanation": "주제 지향적(Subject-Oriented)은 인몬(Inmon)이 정의한 데이터 웨어하우스 4대 특성 중 하나로, 업무 프로세스가 아니라 고객·상품·거래 등 특정 비즈니스 주제를 중심으로 데이터를 구성함을 의미한다.",
+    "tags": ["데이터웨어하우스", "주제지향적"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_005",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "데이터 웨어하우스의 특성 중 '비휘발성(Non-volatile)'에 대한 설명으로 가장 적절한 것은?",
+    "options": [
+      "실시간 트랜잭션 처리를 위해 데이터가 끊임없이 갱신·삭제되는 성질",
+      "한 번 적재된 데이터는 임의로 수정·삭제되지 않고 조회 위주로 안정적으로 유지되는 성질",
+      "여러 원천 시스템의 데이터를 일관된 형식으로 통합하는 성질",
+      "시간의 흐름에 따른 이력 데이터를 함께 저장하는 성질"
+    ],
+    "answer": 1,
+    "explanation": "비휘발성(Non-volatile)은 데이터 웨어하우스에 한 번 적재된 데이터가 임의로 수정·삭제되지 않고 조회(Read) 위주로 안정적으로 유지되는 특성이다. 실시간으로 갱신·삭제되는 것은 운영 데이터베이스(OLTP)의 특성이며, 3번은 통합성, 4번은 시계열성에 대한 설명이다.",
+    "tags": ["데이터웨어하우스", "비휘발성"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_006",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "결측값 유형 중, 결측 발생이 다른 관측된 변수와는 관련이 있으나 결측된 값 자체와는 관련이 없는 경우를 무엇이라 하는가?",
+    "options": [
+      "완전 무작위 결측(MCAR)",
+      "무작위 결측(MAR)",
+      "비무작위 결측(MNAR)",
+      "임의 결측(Random Missing)"
+    ],
+    "answer": 1,
+    "explanation": "무작위 결측(MAR, Missing At Random)은 결측 발생이 다른 관측된 변수와는 관련이 있으나, 결측된 값 자체와는 관련이 없는 유형이다. 예를 들어 특정 지역 응답자의 소득 항목 결측률이 다른 지역보다 높다면, 이는 '지역'이라는 관측 변수와 관련된 MAR에 해당한다.",
+    "tags": ["결측값", "MAR"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_007",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "결측값 유형 중, 소득이 매우 높거나 낮은 응답자일수록 소득 항목 자체에 응답하지 않는 경우처럼, 결측 여부가 결측된 값 자체에 의존하여 처리가 가장 까다로운 유형은?",
+    "options": [
+      "완전 무작위 결측(MCAR)",
+      "무작위 결측(MAR)",
+      "비무작위 결측(MNAR)",
+      "구조적 결측(Structural Missing)"
+    ],
+    "answer": 2,
+    "explanation": "비무작위 결측(MNAR, Missing Not At Random)은 결측 여부가 결측된 값 자체와 관련되어 있는 유형으로, 세 가지 결측값 유형 중 처리가 가장 까다롭다.",
+    "tags": ["결측값", "MNAR"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_008",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "결측치가 있는 행(케이스)을 통째로 제거하는 결측값 처리 방법으로, 구현이 간단하나 데이터 손실이 크고 편향이 발생할 수 있는 것은?",
+    "options": [
+      "완전분석법(Complete Case Analysis)",
+      "단순 대치법(Single Imputation)",
+      "다중 대치법(Multiple Imputation)",
+      "회귀 대치법"
+    ],
+    "answer": 0,
+    "explanation": "완전분석법(Complete Case Analysis)은 결측치가 있는 행을 통째로 제거하는 방법으로, 구현이 간단하지만 데이터 손실이 크고 편향이 발생할 수 있다는 단점이 있다.",
+    "tags": ["결측값 처리", "완전분석법"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_009",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "결측치를 여러 번 그럴듯한 값으로 대체하여 여러 개의 완성된 데이터셋을 만든 뒤 결과를 통합함으로써, 단순 대치법보다 추정의 불확실성을 더 현실적으로 반영하는 결측값 처리 방법은?",
+    "options": [
+      "완전분석법(Complete Case Analysis)",
+      "단순 대치법(Single Imputation)",
+      "다중 대치법(Multiple Imputation)",
+      "삭제법(Listwise Deletion)"
+    ],
+    "answer": 2,
+    "explanation": "다중 대치법(Multiple Imputation)은 결측치를 여러 번 그럴듯한 값으로 대체하여 여러 데이터셋을 만들고 결과를 통합하는 방법으로, 단순 대치법보다 추정의 불확실성을 더 현실적으로 반영한다.",
+    "tags": ["결측값 처리", "다중대치법"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_010",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "데이터 변환 기법 중 '(x - 최솟값) / (최댓값 - 최솟값)' 공식을 사용하여 값의 범위를 0~1 사이로 조정하는 기법은?",
+    "options": [
+      "정규화(Min-Max Normalization)",
+      "표준화(Standardization)",
+      "로그 변환(Log Transformation)",
+      "구간화(Binning)"
+    ],
+    "answer": 0,
+    "explanation": "정규화(Min-Max Normalization)는 (x - 최솟값) / (최댓값 - 최솟값) 공식으로 데이터 값의 범위를 0~1 사이로 조정하는 기법이다.",
+    "tags": ["데이터 변환", "정규화"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_011",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "데이터 변환 기법 중 '(x - 평균) / 표준편차' 공식을 사용하여 평균 0, 표준편차 1인 분포로 변환하는 기법은?",
+    "options": [
+      "정규화(Min-Max Normalization)",
+      "표준화(Standardization, Z-score)",
+      "구간화(Binning)",
+      "파생변수 생성"
+    ],
+    "answer": 1,
+    "explanation": "표준화(Standardization)는 (x - 평균) / 표준편차 공식으로 데이터를 평균 0, 표준편차 1인 분포로 변환하는 기법이다.",
+    "tags": ["데이터 변환", "표준화"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_012",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "연속형 변수를 몇 개의 구간(범주)으로 나누어 범주형 변수처럼 다루는 데이터 변환 기법은?",
+    "options": [
+      "정규화(Normalization)",
+      "표준화(Standardization)",
+      "구간화(Binning)",
+      "로그 변환(Log Transformation)"
+    ],
+    "answer": 2,
+    "explanation": "구간화(Binning)는 연속형 변수를 몇 개의 구간(범주)으로 나누어 범주형 변수처럼 다루는 데이터 변환 기법이다.",
+    "tags": ["데이터 변환", "구간화"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_013",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "생년월일 데이터로부터 '나이'를, 소득과 부채 데이터로부터 '부채비율'을 계산하는 것처럼, 기존 변수를 조합·가공하여 새로운 의미를 갖도록 만든 변수는?",
+    "options": [
+      "파생변수(Derived Variable)",
+      "요약변수(Summary Variable)",
+      "더미변수(Dummy Variable)",
+      "잠재변수(Latent Variable)"
+    ],
+    "answer": 0,
+    "explanation": "파생변수(Derived Variable)는 기존 변수를 조합·가공하여 새로운 의미를 갖도록 만든 변수이다. 요약변수는 여러 관측치의 정보를 하나의 대표값으로 요약하여 만든 변수라는 점에서 구분된다.",
+    "tags": ["파생변수", "요약변수"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_014",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "특정 기간의 총 구매금액이나 평균 방문 주기처럼, 여러 관측치의 정보를 하나의 대표값으로 요약하여 만든 변수를 무엇이라 하는가?",
+    "options": [
+      "파생변수(Derived Variable)",
+      "요약변수(Summary Variable)",
+      "범주형 변수(Categorical Variable)",
+      "이산형 변수(Discrete Variable)"
+    ],
+    "answer": 1,
+    "explanation": "요약변수(Summary Variable)는 여러 관측치의 정보를 하나의 대표값으로 요약하여 만든 변수이다. 총 구매금액, 평균 방문 주기 등이 대표적인 예시이다.",
+    "tags": ["요약변수", "파생변수"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_015",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "데이터 마트 구축 프로세스에서 원천 시스템의 데이터를 추출하고, 분석 목적에 맞게 변환한 뒤 데이터 마트에 적재하는 단계를 지칭하는 용어는?",
+    "options": [
+      "ETL(Extract-Transform-Load)",
+      "OLAP(On-Line Analytical Processing)",
+      "EDA(Exploratory Data Analysis)",
+      "CRM(Customer Relationship Management)"
+    ],
+    "answer": 0,
+    "explanation": "ETL은 원천 시스템에서 데이터를 추출(Extract)하고 분석 목적에 맞게 변환(Transform)한 뒤 데이터 마트에 적재(Load)하는 프로세스를 의미한다.",
+    "tags": ["데이터마트", "ETL"],
+    "difficulty": "하",
+    "questionType": "concept"
   }
 ]

@@ -338,5 +338,90 @@
     "tags": ["가설검정", "검정력"],
     "difficulty": "중",
     "questionType": "concept"
+  },
+  {
+    "id": "p3c2_021",
+    "part": 3,
+    "chapter": "part3_ch2",
+    "content": "두 사건 A, B가 서로 배반사건(동시에 일어날 수 없는 사건)일 때, 두 사건의 합사건 확률 P(A∪B)를 구하는 식으로 옳은 것은?",
+    "options": [
+      "P(A) + P(B)",
+      "P(A) × P(B)",
+      "P(A) + P(B) - P(A∩B)",
+      "P(A∩B) / P(A)"
+    ],
+    "answer": 0,
+    "explanation": "두 사건이 배반사건이면 동시에 일어날 확률 P(A∩B)가 0이므로, 덧셈정리 P(A∪B) = P(A) + P(B) - P(A∩B)에서 마지막 항이 사라져 P(A∪B) = P(A) + P(B)가 된다.",
+    "tags": ["확률기초", "덧셈정리"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c2_022",
+    "part": 3,
+    "chapter": "part3_ch2",
+    "content": "사건 A가 일어났다는 조건 하에서 사건 B가 일어날 조건부확률 P(B|A)를 구하는 공식으로 옳은 것은? (단, P(A) > 0)",
+    "options": [
+      "P(A) × P(B)",
+      "P(A∩B) / P(A)",
+      "P(A∪B) - P(A)",
+      "P(B) / P(A∩B)"
+    ],
+    "answer": 1,
+    "explanation": "조건부확률은 P(B|A) = P(A∩B) / P(A)로 정의된다. 이는 연관분석에서 신뢰도(Confidence)를 계산하는 공식과 동일한 원리이다.",
+    "tags": ["확률기초", "조건부확률"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c2_023",
+    "part": 3,
+    "chapter": "part3_ch2",
+    "content": "두 사건 A와 B가 서로 독립사건(Independent Events)일 때 성립하는 관계로 옳은 것은?",
+    "options": [
+      "P(A∩B) = P(A) + P(B)",
+      "P(A∩B) = P(A) × P(B)",
+      "P(A|B) = P(A) + P(B)",
+      "P(A∩B) = 0"
+    ],
+    "answer": 1,
+    "explanation": "두 사건이 독립이면 한 사건의 발생 여부가 다른 사건의 확률에 영향을 주지 않으므로 P(A∩B) = P(A) × P(B)가 성립하며, 이때 P(B|A) = P(B)이다. P(A∩B) = 0은 배반사건의 조건이지 독립사건의 조건이 아니다.",
+    "tags": ["확률기초", "독립사건"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c2_024",
+    "part": 3,
+    "chapter": "part3_ch2",
+    "content": "측정 단위나 평균의 크기가 서로 다른 두 변수 간의 상대적인 산포 정도를 비교하고자 할 때, 표준편차 대신 사용해야 하는 지표는?",
+    "options": [
+      "분산(Variance)",
+      "변동계수(Coefficient of Variation)",
+      "사분위수 범위(IQR)",
+      "왜도(Skewness)"
+    ],
+    "answer": 1,
+    "explanation": "변동계수(CV)는 표준편차를 평균으로 나눈 값(CV = 표준편차/평균)으로, 단위나 평균 크기가 다른 변수들 간의 상대적인 산포 정도를 비교할 때 사용하는 지표이다.",
+    "tags": ["기술통계", "변동계수"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c2_025",
+    "part": 3,
+    "chapter": "part3_ch2",
+    "content": "데이터 분포가 심하게 왜곡(Skewed)되어 있거나 극단적인 이상치가 존재할 때, 대표값으로 평균보다 더 적절한 중심경향값은?",
+    "options": [
+      "평균(Mean)",
+      "중앙값(Median)",
+      "최빈값(Mode)",
+      "표준편차(Standard Deviation)"
+    ],
+    "answer": 1,
+    "explanation": "중앙값(Median)은 데이터를 크기순으로 정렬했을 때 정중앙에 위치한 값으로, 극단적인 이상치나 왜도가 심한 분포에서 평균보다 대표성이 높다. 평균은 극단값의 영향을 크게 받는다는 한계가 있다.",
+    "tags": ["기술통계", "중앙값"],
+    "difficulty": "하",
+    "questionType": "concept"
   }
 ]

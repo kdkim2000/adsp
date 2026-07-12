@@ -6,15 +6,15 @@ export interface ChapterDef extends ChapterMeta {
 
 export const CHAPTERS: ChapterDef[] = [
   // 1과목: 데이터 이해
-  { id: 'part1_ch1', part: 1, chapter: 1, title: '데이터의 이해',                                idPrefix: 'p1c1_', questionCount: 15 },
-  { id: 'part1_ch2', part: 1, chapter: 2, title: '데이터의 가치와 미래',                          idPrefix: 'p1c2_', questionCount: 20 },
+  { id: 'part1_ch1', part: 1, chapter: 1, title: '데이터의 이해',                                idPrefix: 'p1c1_', questionCount: 17 },
+  { id: 'part1_ch2', part: 1, chapter: 2, title: '데이터의 가치와 미래',                          idPrefix: 'p1c2_', questionCount: 22 },
   { id: 'part1_ch3', part: 1, chapter: 3, title: '가치 창조를 위한 데이터 사이언스와 전략 인사이트', idPrefix: 'p1c3_', questionCount: 20 },
   // 2과목: 데이터분석 기획
-  { id: 'part2_ch1', part: 2, chapter: 1, title: '데이터분석 기획의 이해',   idPrefix: 'p2c1_', questionCount: 20 },
-  { id: 'part2_ch2', part: 2, chapter: 2, title: '분석 마스터플랜',          idPrefix: 'p2c2_', questionCount: 22 },
+  { id: 'part2_ch1', part: 2, chapter: 1, title: '데이터분석 기획의 이해',   idPrefix: 'p2c1_', questionCount: 21 },
+  { id: 'part2_ch2', part: 2, chapter: 2, title: '분석 마스터플랜',          idPrefix: 'p2c2_', questionCount: 24 },
   // 3과목: 데이터분석
-  { id: 'part3_ch1', part: 3, chapter: 1, title: 'R 기초와 데이터 마트',    idPrefix: 'p3c1_', questionCount: 3 },
-  { id: 'part3_ch2', part: 3, chapter: 2, title: '통계분석',                idPrefix: 'p3c2_', questionCount: 20 },
+  { id: 'part3_ch1', part: 3, chapter: 1, title: 'R 기초와 데이터 마트',    idPrefix: 'p3c1_', questionCount: 15 },
+  { id: 'part3_ch2', part: 3, chapter: 2, title: '통계분석',                idPrefix: 'p3c2_', questionCount: 25 },
   { id: 'part3_ch3', part: 3, chapter: 3, title: '정형 데이터 마이닝',      idPrefix: 'p3c3_', questionCount: 21 },
 ]
 

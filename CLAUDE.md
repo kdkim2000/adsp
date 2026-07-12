@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **ADsP Master** — ADsP(데이터분석 준전문가) 자격증 시험 준비용 웹 사이트.
 이론 학습 + 예상문제 풀이 + 모의고사.
 
-> 이 저장소는 기존 DAsP(데이터아키텍처 준전문가) 학습 사이트의 구조를 재사용하여 ADsP 콘텐츠로 전환한 것이다. 전체 아키텍처(SSG, 챕터 레지스트리, 진도 관리 방식)는 동일하며, 과목 구조와 콘텐츠만 교체되었다. 이전 DAsP 콘텐츠는 `backup_dasp_20260712/`에 백업되어 있다. 대부분의 챕터는 이론·문제가 15~22문항 수준으로 보강되었으나 `part3_ch1`은 아직 3문항뿐이다. 모의고사(exam1/exam2)는 실제 필기시험 과목별 배점 비율(10/10/30, 총 50문항)에 맞춰 전면 재작성되었으며, 최근 출제 경향을 반영해 3과목에서 R 코드/함수 관련 문항은 배제하고 exam1·exam2는 서로 다른 세부 문항으로 구성했다.
+> 이 저장소는 기존 DAsP(데이터아키텍처 준전문가) 학습 사이트의 구조를 재사용하여 ADsP 콘텐츠로 전환한 것이다. 전체 아키텍처(SSG, 챕터 레지스트리, 진도 관리 방식)는 동일하며, 과목 구조와 콘텐츠만 교체되었다. 이전 DAsP 콘텐츠는 `backup_dasp_20260712/`에 백업되어 있다. 공식 ADsP 출제범위 체크리스트 기준 전수 점검을 거쳐 모든 챕터가 이론·문제 모두 충실히 채워져 있다(문제 15~25문항/챕터). 모의고사(exam1/exam2)는 실제 필기시험 과목별 배점 비율(10/10/30, 총 50문항)에 맞춰 전면 재작성되었으며, 최근 출제 경향을 반영해 3과목에서 R 코드/함수 관련 문항은 배제하고 exam1·exam2는 서로 다른 세부 문항으로 구성했다.
 
 ## ADsP 시험 구조
 
@@ -84,7 +84,7 @@ context/ProgressContext.tsx    → useProgress hook
 types/index.ts                 → Question(part: 1|2|3), ExamResult(part1~3Score), Stats
 data/
   theory/part{1-3}_ch{1-3}.md       → 8개 이론 파일 (챕터당 1개)
-  questions/part{1-3}_ch{1-3}.json  → 8개 문제 파일 (현재 챕터당 3~22문항, 합계 141문항 — part3_ch1만 3문항으로 보강 필요)
+  questions/part{1-3}_ch{1-3}.json  → 8개 문제 파일 (챕터당 15~25문항, 합계 165문항)
   questions/mockexam/exam1.json     → 모의고사 1회 (50문항: 1과목 10·2과목 10·3과목 30, 3과목은 R 관련 문항 배제)
   questions/mockexam/exam2.json     → 모의고사 2회 (50문항, exam1과 중복되지 않는 별도 세부 문항으로 구성)
 scripts/validate-questions.ts       → JSON 스키마 검증 (p[1-3]c[1-3]_\d{3}) + 파일별·과목별 문항 수 집계 출력
