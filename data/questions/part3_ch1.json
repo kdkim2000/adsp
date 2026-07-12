@@ -1,0 +1,53 @@
+[
+  {
+    "id": "p3c1_001",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "결측값(Missing Value) 유형 중, 결측 발생이 다른 변수나 자기 자신의 값과 무관하게 완전히 무작위로 발생하는 경우를 무엇이라 하는가?",
+    "options": [
+      "완전 무작위 결측(MCAR)",
+      "무작위 결측(MAR)",
+      "비무작위 결측(MNAR)",
+      "구조적 결측(Structural Missing)"
+    ],
+    "answer": 0,
+    "explanation": "완전 무작위 결측(MCAR, Missing Completely At Random)은 결측 발생이 다른 변수나 자기 자신의 값과 전혀 관련 없이 무작위로 발생하는 경우를 말한다.",
+    "tags": ["데이터 전처리", "결측값 유형"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_002",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "데이터 마트(Data Mart)에 대한 설명으로 가장 적절한 것은?",
+    "options": [
+      "여러 부서의 데이터를 통합한 전사 데이터 저장소",
+      "특정 부서나 업무 영역의 요구에 맞게 추출·가공한 소규모 데이터 저장소",
+      "실시간 트랜잭션 처리를 위한 운영 데이터베이스",
+      "비정형 데이터만을 저장하는 저장소"
+    ],
+    "answer": 1,
+    "explanation": "데이터 마트는 전사 데이터 웨어하우스로부터 특정 부서·업무 목적에 맞게 추출하여 가공한 소규모 데이터 저장소이다. 전사 통합 저장소는 데이터 웨어하우스에 해당한다.",
+    "tags": ["데이터마트", "정의"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "p3c1_003",
+    "part": 3,
+    "chapter": "part3_ch1",
+    "content": "데이터 전처리 과정에서 이상값(Outlier)을 탐지하는 방법으로 적절하지 않은 것은?",
+    "options": [
+      "박스플롯을 이용한 IQR(사분위 범위) 기준 탐지",
+      "Z-score를 이용한 표준화 거리 기준 탐지",
+      "SECI 모델을 이용한 지식 전환 분석",
+      "산점도를 통한 시각적 탐지"
+    ],
+    "answer": 2,
+    "explanation": "SECI 모델은 지식 경영에서 암묵지와 형식지의 전환 과정을 설명하는 모델로, 이상값 탐지 방법과는 관련이 없다. 이상값 탐지에는 IQR, Z-score, 시각화 등이 활용된다.",
+    "tags": ["이상값", "전처리"],
+    "difficulty": "중",
+    "questionType": "concept"
+  }
+]

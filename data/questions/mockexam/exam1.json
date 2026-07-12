@@ -1,0 +1,692 @@
+[
+  {
+    "id": "exam1_001",
+    "part": 1,
+    "chapter": "mockexam",
+    "content": "데이터가 지닌 본질적 특성 중, 추론·예측·전망 등 합리적인 의사결정을 내리기 위한 객관적 '근거'로 기능하는 특성은?",
+    "options": ["존재적 특성", "당위적 특성", "정성적 특성", "정량적 특성"],
+    "answer": 1,
+    "explanation": "당위적 특성은 데이터가 추론·예측·전망·추정 등 합리적인 의사결정을 내리기 위한 객관적 근거로 기능한다는 것을 의미한다. 존재적 특성은 객관적 사실 그 자체로서 존재함을 뜻한다.",
+    "tags": ["데이터의 이해", "당위적 특성"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_002",
+    "part": 1,
+    "chapter": "mockexam",
+    "content": "다음 중 정량적 데이터(Quantitative Data)의 예시로 가장 적절한 것은?",
+    "options": ["고객 인터뷰 녹취록", "SNS 게시글 및 댓글", "매장별 일일 매출액", "설문지 주관식 답변"],
+    "answer": 2,
+    "explanation": "매출액과 같이 숫자로 정형화되어 계산과 통계 분석이 용이한 데이터는 정량적 데이터이다. 인터뷰 녹취록, SNS 게시글, 주관식 답변은 모두 정성적(비정형) 데이터에 해당한다.",
+    "tags": ["데이터의 이해", "정량적 데이터"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_003",
+    "part": 1,
+    "chapter": "mockexam",
+    "content": "지식 경영에서 교과서, 매뉴얼, 데이터베이스와 같이 형상화되고 구조화되어 겉으로 드러난 지식을 무엇이라 하는가?",
+    "options": ["암묵지(Tacit Knowledge)", "형식지(Explicit Knowledge)", "메타지식", "절차지식"],
+    "answer": 1,
+    "explanation": "형식지는 매뉴얼·문서·데이터베이스처럼 구조화되어 외부로 드러난 지식으로, 누구나 쉽게 이해하고 대량으로 전달·공유할 수 있다. 암묵지는 개인에게 체화되어 겉으로 드러나지 않는 지식이다.",
+    "tags": ["데이터의 이해", "형식지"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_004",
+    "part": 1,
+    "chapter": "mockexam",
+    "content": "DIKW 피라미드 계층 구조를 하위 단계에서 상위 단계 순서로 올바르게 나열한 것은?",
+    "options": [
+      "정보 → 데이터 → 지식 → 지혜",
+      "데이터 → 정보 → 지식 → 지혜",
+      "데이터 → 지식 → 정보 → 지혜",
+      "지식 → 정보 → 데이터 → 지혜"
+    ],
+    "answer": 1,
+    "explanation": "DIKW 피라미드는 가공 이전의 순수한 사실인 데이터(Data)에서 출발하여 의미가 부여된 정보(Information), 구조화된 지식(Knowledge)을 거쳐 최상위인 지혜(Wisdom)로 이어지는 위계 구조를 가진다.",
+    "tags": ["데이터의 이해", "DIKW"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_005",
+    "part": 1,
+    "chapter": "mockexam",
+    "content": "빅데이터의 핵심 특징인 3V에 해당하지 않는 것은?",
+    "options": ["규모(Volume)", "다양성(Variety)", "속도(Velocity)", "정확성(Veracity)"],
+    "answer": 3,
+    "explanation": "빅데이터의 기본 3V는 규모, 다양성, 속도이다. 정확성(Veracity)과 가치(Value)는 여기에 추가되어 5V를 구성하는 확장 요소이다.",
+    "tags": ["데이터의 가치와 미래", "3V"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_006",
+    "part": 1,
+    "chapter": "mockexam",
+    "content": "빅데이터의 출현 배경 및 요인에 대한 설명으로 가장 적절하지 않은 것은?",
+    "options": [
+      "인터넷·모바일·IoT 센서의 보급으로 데이터 생성원이 다원화되었다.",
+      "저장매체(스토리지) 가격의 비약적 하락으로 대용량 데이터를 저비용으로 적재할 수 있게 되었다.",
+      "하둡(Hadoop), 스파크(Spark) 등 분산 처리 오픈소스 기술이 대중화되었다.",
+      "소용량 데이터의 표본조사 기법이 빅데이터 기술보다 비용 효율적이었기 때문이다."
+    ],
+    "answer": 3,
+    "explanation": "표본조사는 인프라가 부족했던 소용량 데이터 시대의 한계로 인해 사용되던 방식이며, 빅데이터의 출현 배경이 아니다. 빅데이터는 오히려 전수조사를 가능하게 하는 기술 발전이 배경이 되었다.",
+    "tags": ["데이터의 가치와 미래", "출현 배경"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_007",
+    "part": 1,
+    "chapter": "mockexam",
+    "content": "빅데이터 시대의 정보 처리 패러다임 변화 중 '사전처리(Pre-processing) → 사후처리(Post-processing)'에 대한 설명으로 가장 적절한 것은?",
+    "options": [
+      "정해진 목적에 맞춰 데이터를 필터링하여 수집하는 방식이다.",
+      "가능한 모든 원천 데이터를 필터링 없이 먼저 적재한 후, 사후에 다각적으로 활용하는 방식이다.",
+      "수집 단계에서 노이즈 데이터를 완벽히 차단하는 체계이다.",
+      "분석 모델을 먼저 확정한 뒤 데이터를 사후에 수집하는 방식이다."
+    ],
+    "answer": 1,
+    "explanation": "사후처리는 데이터를 미리 선별·재단하여 폐기하지 않고 있는 그대로 대량 적재한 뒤, 사후에 다양한 방식으로 조합하여 숨은 인사이트를 발굴하는 빅데이터 시대의 핵심 변화이다.",
+    "tags": ["데이터의 가치와 미래", "패러다임 변화"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_008",
+    "part": 1,
+    "chapter": "mockexam",
+    "content": "빅데이터의 위기 요인 중 '사생활 침해(Privacy Violation)'에 대응하기 위한 제도적 전환 방향으로 가장 적절한 것은?",
+    "options": [
+      "데이터 수집 시점의 사전 동의제를 무한히 강화한다.",
+      "데이터를 실제 활용하여 피해를 입힌 사용자에게 사후 책임을 묻는 방식으로 전환한다.",
+      "모든 비정형 데이터의 수집을 전면 금지한다.",
+      "데이터 레이크 아키텍처를 단일 관계형 데이터베이스로 축소한다."
+    ],
+    "answer": 1,
+    "explanation": "빅데이터 환경에서는 매번 사전 동의를 받는 방식이 한계가 있으므로, 데이터를 오남용하여 실제 피해를 유발한 사용자에게 사후 책임을 묻는 방식으로 통제 패러다임이 전환되어야 한다.",
+    "tags": ["데이터의 가치와 미래", "사생활 침해"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_009",
+    "part": 1,
+    "chapter": "mockexam",
+    "content": "데이터 사이언스의 3대 핵심 영역 중 '도메인 지식, 산업 트렌드 이해, 인문학적 통찰력'을 포괄하는 영역은?",
+    "options": ["Analytics (분석적 영역)", "IT (기술적 영역)", "Business Context (비즈니스 영역)", "Engineering (엔지니어링 영역)"],
+    "answer": 2,
+    "explanation": "Business Context 영역은 산업 트렌드 이해, 도메인 지식, 인문학적 통찰력 등을 포괄하며 소프트 스킬에 해당한다. Analytics는 수학·통계 지식, IT는 컴퓨터 공학·프로그래밍 역량을 다룬다.",
+    "tags": ["데이터의 가치와 미래", "데이터 사이언스"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_010",
+    "part": 1,
+    "chapter": "mockexam",
+    "content": "데이터 사이언티스트에게 요구되는 역량 중 '하드 스킬(Hard Skill)'에 해당하는 것은?",
+    "options": [
+      "복잡한 통계 지표를 시각화와 스토리텔링으로 전달하는 능력",
+      "분산 컴퓨팅 인프라 이해 및 통계적 모델링 알고리즘 구현 역량",
+      "비즈니스 도메인의 요구사항을 짚어내는 전략적 사고력",
+      "조직 내 데이터 실로를 극복하는 다분야 협력 역량"
+    ],
+    "answer": 1,
+    "explanation": "분산 컴퓨팅 인프라 이해, 통계적 모델링, 알고리즘 구현 등 기술적·정량적 역량은 하드 스킬에 해당한다. 나머지는 커뮤니케이션·전략적 사고·협업과 같은 소프트 스킬이다.",
+    "tags": ["데이터의 가치와 미래", "하드 스킬"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_011",
+    "part": 2,
+    "chapter": "mockexam",
+    "content": "분석 기획에 대한 설명으로 가장 적절한 것은?",
+    "options": [
+      "분석을 수행한 이후 결과를 정리하는 보고서 작성 활동이다.",
+      "어떤 목표를 달성하기 위해 어떤 데이터를 가지고 어떤 방식으로 분석을 수행할 것인가에 대한 사전 계획 활동이다.",
+      "데이터베이스의 물리적 구조를 설계하는 활동이다.",
+      "분석 결과를 시각화 도구로 표현하는 활동이다."
+    ],
+    "answer": 1,
+    "explanation": "분석 기획은 분석을 수행하기 전, 목표(What)를 달성하기 위해(Why) 어떤 데이터를 가지고 어떤 방식(How)으로 분석할 것인지 계획하는 사전 준비 활동이다.",
+    "tags": ["데이터분석 기획의 이해", "정의"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_012",
+    "part": 2,
+    "chapter": "mockexam",
+    "content": "분석의 대상(Problem)과 방법(Method)이 모두 명확하게 알려진 상황에서, 효율성 극대화와 비용 최소화를 목표로 접근하는 분석 주제 유형은?",
+    "options": ["최적화(Optimization)", "솔루션(Solution)", "통찰(Insight)", "발견(Discovery)"],
+    "answer": 0,
+    "explanation": "분석 대상과 방법을 모두 아는 경우는 '최적화(Optimization)' 유형에 해당하며, 기존 방법을 개선하여 효율성을 높이는 것이 목표이다.",
+    "tags": ["데이터분석 기획의 이해", "분석 주제 유형"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_013",
+    "part": 2,
+    "chapter": "mockexam",
+    "content": "분석 기획 시 고려사항 중 '적합한 유스케이스 발굴'에 대한 설명으로 가장 적절한 것은?",
+    "options": [
+      "분석에 필요한 데이터의 존재 여부와 수집 가능성을 확인하는 것이다.",
+      "유사 업종이나 부서의 분석 사례를 탐색하고 벤치마킹하는 것이다.",
+      "조직의 문화와 예산 등 비기술적 장애 요소를 식별하는 것이다.",
+      "분석 결과를 실시간으로 시각화하는 방안을 마련하는 것이다."
+    ],
+    "answer": 1,
+    "explanation": "적합한 유스케이스 발굴은 비즈니스 목표와 분석 목표를 일치시키기 위해 유사 업종·부서의 분석 사례를 탐색하고 벤치마킹하여 분석을 구체화하는 활동이다.",
+    "tags": ["데이터분석 기획의 이해", "고려사항"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_014",
+    "part": 2,
+    "chapter": "mockexam",
+    "content": "KDD(Knowledge Discovery in Databases) 방법론의 5단계 프로세스 순서로 옳은 것은?",
+    "options": [
+      "데이터 선택 → 데이터 전처리 → 데이터 변환 → 데이터 마이닝 → 해석 및 평가",
+      "데이터 전처리 → 데이터 선택 → 데이터 변환 → 데이터 마이닝 → 해석 및 평가",
+      "데이터 선택 → 데이터 변환 → 데이터 전처리 → 데이터 마이닝 → 해석 및 평가",
+      "데이터 마이닝 → 데이터 선택 → 데이터 전처리 → 데이터 변환 → 해석 및 평가"
+    ],
+    "answer": 0,
+    "explanation": "KDD는 데이터 선택(Selection) → 전처리(Preprocessing) → 변환(Transformation) → 데이터 마이닝(Data Mining) → 해석 및 평가(Interpretation/Evaluation)의 5단계로 구성된다.",
+    "tags": ["데이터분석 기획의 이해", "KDD"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_015",
+    "part": 2,
+    "chapter": "mockexam",
+    "content": "CRISP-DM 방법론의 6단계 중, 비즈니스 관점의 목표와 요구사항을 데이터 분석 문제로 정의하는 첫 번째 단계는?",
+    "options": ["데이터 이해(Data Understanding)", "업무 이해(Business Understanding)", "데이터 준비(Data Preparation)", "모델링(Modeling)"],
+    "answer": 1,
+    "explanation": "업무 이해(Business Understanding)는 CRISP-DM의 첫 단계로, 비즈니스 목표와 요구사항을 파악하여 데이터 마이닝 문제로 정의하는 단계이다.",
+    "tags": ["데이터분석 기획의 이해", "CRISP-DM"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_016",
+    "part": 2,
+    "chapter": "mockexam",
+    "content": "분석 과제 발굴의 하향식 접근법(Top-Down Approach) 프로세스 순서로 옳은 것은?",
+    "options": [
+      "문제 탐색 → 문제 정의 → 해결방안 탐색 → 타당성 검토 → 과제 선정",
+      "문제 정의 → 문제 탐색 → 타당성 검토 → 해결방안 탐색 → 과제 선정",
+      "해결방안 탐색 → 문제 탐색 → 문제 정의 → 타당성 검토 → 과제 선정",
+      "타당성 검토 → 문제 탐색 → 문제 정의 → 해결방안 탐색 → 과제 선정"
+    ],
+    "answer": 0,
+    "explanation": "하향식 접근법은 문제 탐색(Problem Discovery) → 문제 정의(Problem Definition) → 해결방안 탐색(Solution Search) → 타당성 검토(Feasibility Study) → 과제 선정 순으로 진행된다.",
+    "tags": ["데이터분석 기획의 이해", "하향식 접근법"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_017",
+    "part": 2,
+    "chapter": "mockexam",
+    "content": "빅데이터 특징(4V)을 투자 비용(Investment)과 비즈니스 효과(Return)의 ROI 관점으로 구분할 때, 비즈니스 효과 요소에 해당하는 것은?",
+    "options": ["규모(Volume)", "다양성(Variety)", "속도(Velocity)", "가치(Value)"],
+    "answer": 3,
+    "explanation": "ROI 관점에서 규모·다양성·속도(3V)는 기술 인프라 구축 비용을 유발하는 투자 비용(Investment) 요소이며, 가치(Value)는 실질적인 비즈니스 성과를 나타내는 효과(Return) 요소이다.",
+    "tags": ["분석 마스터플랜", "ROI 관점"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_018",
+    "part": 2,
+    "chapter": "mockexam",
+    "content": "분석 과제 포트폴리오 사분면 매트릭스에서 '시급성이 높고 난이도가 낮아 가장 우선적으로 실행(Quick-Win)해야 하는' 영역은?",
+    "options": ["Ⅰ 영역 (현재-어려움)", "Ⅱ 영역 (미래-어려움)", "Ⅲ 영역 (현재-쉬움)", "Ⅳ 영역 (미래-쉬움)"],
+    "answer": 2,
+    "explanation": "Ⅲ 영역은 시급성이 높고 난이도가 낮은 영역으로, 단기적 성공 체험을 확보하기 위해 Quick-Win 방식으로 가장 우선적으로 실행해야 하는 영역이다.",
+    "tags": ["분석 마스터플랜", "포트폴리오 사분면"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_019",
+    "part": 2,
+    "chapter": "mockexam",
+    "content": "기업의 데이터 분석 역량을 진단하는 '분석 준비도(Readiness)'의 6대 진단 영역에 해당하지 않는 것은?",
+    "options": ["분석 업무 파악", "인력 및 조직", "분석 예산 및 투자 비용", "IT 인프라"],
+    "answer": 2,
+    "explanation": "분석 준비도의 6대 영역은 분석 업무 파악, 인력 및 조직, 분석 기법, 분석 데이터, 분석 문화, IT 인프라이다. 분석 예산 및 투자 비용은 포함되지 않는다.",
+    "tags": ["분석 마스터플랜", "분석 준비도"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_020",
+    "part": 2,
+    "chapter": "mockexam",
+    "content": "데이터 거버넌스(Data Governance)의 3대 구성 요소로 옳은 것은?",
+    "options": [
+      "원칙(Principle), 조직(Organization), 프로세스(Process)",
+      "인력, 예산, 일정",
+      "마스터 데이터, 메타데이터, 데이터 사전",
+      "표준화, 관리 체계, 저장소 관리"
+    ],
+    "answer": 0,
+    "explanation": "데이터 거버넌스의 3대 구성 요소는 원칙(Principle), 조직(Organization), 프로세스(Process)이다. 마스터 데이터·메타데이터·데이터 사전은 3대 관리 대상이며, 별개의 분류이다.",
+    "tags": ["분석 마스터플랜", "데이터 거버넌스"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_021",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "데이터 마트(Data Mart)에 대한 설명으로 가장 적절한 것은?",
+    "options": [
+      "여러 부서의 데이터를 통합한 전사 데이터 저장소이다.",
+      "특정 부서나 업무 영역의 요구에 맞게 추출·가공한 소규모 데이터 저장소이다.",
+      "실시간 트랜잭션 처리를 위한 운영 데이터베이스이다.",
+      "비정형 데이터만을 저장하는 저장소이다."
+    ],
+    "answer": 1,
+    "explanation": "데이터 마트는 전사 데이터 웨어하우스로부터 특정 부서·업무 목적에 맞게 추출·가공한 소규모 데이터 저장소이다. 전사 통합 저장소는 데이터 웨어하우스에 해당한다.",
+    "tags": ["데이터 마트", "정의"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_022",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "결측값(Missing Value) 유형 중, 결측 발생이 다른 변수나 자기 자신의 값과 무관하게 완전히 무작위로 발생하는 경우를 무엇이라 하는가?",
+    "options": [
+      "완전 무작위 결측(MCAR)",
+      "무작위 결측(MAR)",
+      "비무작위 결측(MNAR)",
+      "구조적 결측(Structural Missing)"
+    ],
+    "answer": 0,
+    "explanation": "완전 무작위 결측(MCAR, Missing Completely At Random)은 결측 발생이 다른 변수나 자기 자신의 값과 전혀 관련 없이 무작위로 발생하는 경우를 말한다.",
+    "tags": ["데이터 전처리", "결측값 유형"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_023",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "이상값(Outlier) 탐지를 위한 IQR(사분위 범위) 기준으로 옳은 것은?",
+    "options": [
+      "Q1 − 1.5×IQR 미만이거나 Q3 + 1.5×IQR 초과인 값",
+      "평균에서 표준편차의 1배를 벗어나는 값",
+      "중앙값보다 항상 큰 값",
+      "전체 데이터의 상위 1%에 해당하는 값"
+    ],
+    "answer": 0,
+    "explanation": "IQR 기준 이상값은 제1사분위수(Q1)와 제3사분위수(Q3)의 차이인 IQR을 이용해, Q1−1.5×IQR 미만이거나 Q3+1.5×IQR을 초과하는 값으로 판단한다.",
+    "tags": ["데이터 전처리", "이상값 탐지"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_024",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "데이터 변환 기법 중, '(x - 최솟값) / (최댓값 - 최솟값)' 공식을 사용하여 값의 범위를 0~1 사이로 조정하는 기법은?",
+    "options": ["표준화(Standardization)", "정규화(Min-Max Normalization)", "로그 변환(Log Transformation)", "구간화(Binning)"],
+    "answer": 1,
+    "explanation": "정규화(Min-Max Normalization)는 (x - 최솟값) / (최댓값 - 최솟값) 공식으로 데이터 값의 범위를 0~1 사이로 조정하는 기법이다.",
+    "tags": ["데이터 전처리", "데이터 변환"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_025",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "기존 변수를 조합·가공하여 새로운 의미를 갖도록 만든 변수(예: 생년월일 → 나이)를 무엇이라 하는가?",
+    "options": ["요약변수", "파생변수", "더미변수", "잠재변수"],
+    "answer": 1,
+    "explanation": "파생변수(Derived Variable)는 기존 변수를 조합·가공하여 새로운 의미를 갖도록 만든 변수이다. 요약변수는 여러 관측치의 정보를 하나의 대표값으로 요약한 변수이다.",
+    "tags": ["데이터 전처리", "파생변수"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_026",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "데이터 마트 구축 프로세스에서 원천 시스템의 데이터를 추출·변환·적재하는 단계를 지칭하는 용어는?",
+    "options": ["ETL(Extract-Transform-Load)", "OLAP(On-Line Analytical Processing)", "EDA(Exploratory Data Analysis)", "CRM(Customer Relationship Management)"],
+    "answer": 0,
+    "explanation": "ETL은 원천 시스템에서 데이터를 추출(Extract)하고 분석 목적에 맞게 변환(Transform)한 뒤 데이터 마트에 적재(Load)하는 프로세스를 의미한다.",
+    "tags": ["데이터 마트", "ETL"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_027",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "결측치를 여러 번 그럴듯한 값으로 대체하여 여러 개의 완성된 데이터셋을 만든 뒤 결과를 통합하는 결측값 처리 방법은?",
+    "options": ["완전분석법(Complete Case Analysis)", "단순 대치법(Single Imputation)", "다중 대치법(Multiple Imputation)", "삭제법(Listwise Deletion)"],
+    "answer": 2,
+    "explanation": "다중 대치법(Multiple Imputation)은 결측치를 여러 번 그럴듯한 값으로 대체해 여러 데이터셋을 만들고 결과를 통합하는 방법으로, 단순 대치법보다 추정의 불확실성을 더 현실적으로 반영한다.",
+    "tags": ["데이터 전처리", "결측값 처리"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_028",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "왜도(Skewness)가 심하게 치우친 데이터를 정규분포에 가깝게 조정하기 위해 주로 사용하는 데이터 변환 기법은?",
+    "options": ["로그 변환(Log Transformation)", "구간화(Binning)", "원-핫 인코딩(One-Hot Encoding)", "표준화(Standardization)"],
+    "answer": 0,
+    "explanation": "로그 변환은 왜도가 심하게 치우친 데이터에 로그를 취해 분포를 정규분포에 가깝게 조정하는 대표적인 기법이다.",
+    "tags": ["데이터 전처리", "데이터 변환"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_029",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "표본 추출 방법 중, 모집단을 이질적인 그룹(층)으로 나누고 각 층 내에서 독립적으로 무작위 추출을 수행하는 기법은?",
+    "options": ["단순 랜덤 추출법", "계통 추출법", "층화 추출법", "집락 추출법"],
+    "answer": 2,
+    "explanation": "층화 추출법(Stratified Sampling)은 모집단을 이질적인 그룹(층)으로 나누고, 각 층 내에서 독립적으로 무작위 추출을 수행하는 방법으로 그룹 내 동질·그룹 간 이질의 특성을 가진다.",
+    "tags": ["통계분석", "표본추출"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_030",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "순위와 간격의 의미는 있으나 절대적 원점(0)이 없어 곱셈·나눗셈은 불가능하고 덧셈·뺄셈만 가능한 데이터 척도는?",
+    "options": ["명목척도", "순서척도", "구간척도", "비율척도"],
+    "answer": 2,
+    "explanation": "구간(간격)척도는 순위와 간격의 의미가 있으나 절대적 원점이 없어 사칙연산 중 덧셈·뺄셈만 가능하다. 대표적인 예로 온도, 지능지수(IQ)가 있다.",
+    "tags": ["통계분석", "데이터 척도"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_031",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "베르누이 시행(성공/실패)을 n번 독립적으로 반복했을 때 성공 횟수가 따르는 확률분포는?",
+    "options": ["이항분포(Binomial Distribution)", "포아송분포(Poisson Distribution)", "정규분포(Normal Distribution)", "t-분포"],
+    "answer": 0,
+    "explanation": "이항분포는 성공/실패 두 가지 결과만 갖는 베르누이 시행을 n번 독립적으로 반복했을 때, 성공 횟수가 따르는 이산확률분포이다.",
+    "tags": ["통계분석", "확률분포"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_032",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "모분산을 모르고 표본의 크기가 작을 때(일반적으로 n < 30) 모평균의 추정 및 검정에 주로 활용되는 연속확률분포는?",
+    "options": ["정규분포", "t-분포", "카이제곱분포", "F-분포"],
+    "answer": 1,
+    "explanation": "t-분포는 모분산을 모르고 표본 크기가 작을 때 모평균 추정 및 검정에 활용되며, 정규분포와 유사한 좌우 대칭 구조이나 표본 크기가 작을수록 꼬리가 두꺼워진다.",
+    "tags": ["통계분석", "확률분포"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_033",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "가설검정에서 '차이가 없다, 효과가 없다, 기존과 같다'를 뜻하며 기각하는 것이 목적인 가설은?",
+    "options": ["귀무가설(H0)", "대립가설(H1)", "검정통계량", "신뢰구간"],
+    "answer": 0,
+    "explanation": "귀무가설(H0)은 '차이가 없다, 효과가 없다'는 가설로, 가설검정의 목적은 표본 데이터를 통해 이 귀무가설을 기각할 수 있는지를 판단하는 것이다.",
+    "tags": ["통계분석", "가설검정"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_034",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "실제 참인 귀무가설을 잘못 기각하는 오류로, 그 최대 허용 한계가 유의수준(α)인 오류는?",
+    "options": ["제1종 오류", "제2종 오류", "표본 오류", "측정 오류"],
+    "answer": 0,
+    "explanation": "제1종 오류(α)는 실제 참인 귀무가설을 잘못 기각하는 오류이며, 이 오류의 최대 허용 한계가 유의수준 α이다. 제2종 오류는 거짓인 귀무가설을 잘못 채택하는 오류이다.",
+    "tags": ["통계분석", "가설검정 오류"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_035",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "좋은 추정량이 갖추어야 할 조건 중, 추정량의 기댓값이 실제 모수와 정확히 일치하여 편향이 없는 성질은?",
+    "options": ["불편성(Unbiasedness)", "효율성(Efficiency)", "일치성(Consistency)", "충족성(Sufficiency)"],
+    "answer": 0,
+    "explanation": "불편성(Unbiasedness)은 추정량의 기댓값이 실제 모수와 정확히 일치하여 편향이 없는 성질을 말한다. 효율성은 분산이 작은 성질, 일치성은 표본이 커질수록 모수에 가까워지는 성질이다.",
+    "tags": ["통계분석", "추정량의 성질"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_036",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "두 변수가 모두 연속형(등간·비율척도)일 때, 선형적 관계의 강도를 측정하는 모수적 상관분석 기법은?",
+    "options": ["피어슨 상관분석", "스피어만 상관분석", "카이제곱 검정", "분산분석"],
+    "answer": 0,
+    "explanation": "피어슨 상관분석은 두 변수가 모두 연속형일 때 선형적 관계의 강도를 측정하는 모수적 방법이다. 스피어만 상관분석은 순서형이거나 비선형 관계일 때 사용하는 비모수적 방법이다.",
+    "tags": ["통계분석", "상관분석"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_037",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "회귀 모형의 기본 가정 중, 잔차의 분산이 독립변수의 크기와 무관하게 항상 일정해야 한다는 가정은?",
+    "options": ["선형성", "등분산성", "정규성", "독립성"],
+    "answer": 1,
+    "explanation": "등분산성은 잔차의 분산이 독립변수의 크기와 무관하게 항상 일정해야 한다는 가정이다. 위배 시 잔차 산점도가 나팔 모양으로 퍼지는 형태를 보인다.",
+    "tags": ["통계분석", "회귀분석 가정"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_038",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "다중회귀분석에서 독립변수들 간에 강한 상관관계가 나타나는 '다중공선성'을 진단할 때, 일반적으로 심각한 문제로 판단하는 분산팽창요인(VIF)의 기준값은?",
+    "options": ["1 이상", "3 이상", "5 이상", "10 이상"],
+    "answer": 3,
+    "explanation": "분산팽창요인(VIF) 값이 10 이상이면 심각한 다중공선성이 존재하는 것으로 판단하여 해당 변수를 제거하거나 주성분분석(PCA) 등으로 차원을 축소해야 한다.",
+    "tags": ["통계분석", "다중공선성"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_039",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "시계열 데이터가 ARIMA와 같은 시계열 모델에 적용되기 위해 만족해야 하는 정상성(Stationarity) 조건에 해당하지 않는 것은?",
+    "options": [
+      "시간에 따라 평균이 일정해야 한다.",
+      "시간에 따라 분산이 일정해야 한다.",
+      "공분산은 시차(Lag)에만 의존해야 한다.",
+      "뚜렷한 추세(Trend)와 계절성이 존재해야 한다."
+    ],
+    "answer": 3,
+    "explanation": "정상 시계열은 평균·분산이 일정하고 공분산이 시차에만 의존해야 한다. 뚜렷한 추세나 계절성이 존재하면 평균이 시간에 따라 달라지므로 오히려 정상성 조건을 위배한 비정상 시계열이 된다.",
+    "tags": ["통계분석", "정상성"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_040",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "데이터 마이닝과 전통적 통계분석의 차이점에 대한 설명으로 가장 적절하지 않은 것은?",
+    "options": [
+      "전통적 통계분석은 사전에 가설을 세우고 표본으로 이를 검증하는 하향식 방식을 취한다.",
+      "데이터 마이닝은 명확한 가설 없이 데이터 자체에서 패턴을 찾아내는 상향식 방식을 취한다.",
+      "데이터 마이닝은 정형 데이터뿐 아니라 반정형·비정형 데이터까지 다룬다.",
+      "데이터 마이닝은 통계분석과 달리 대용량 데이터를 다룰 수 없다."
+    ],
+    "answer": 3,
+    "explanation": "데이터 마이닝은 오히려 대용량의 정형·반정형·비정형 데이터를 다루는 데 강점이 있는 기법이다. 전통적 통계분석은 소량의 표본 데이터를 대상으로 엄격한 가설 검정에 집중한다.",
+    "tags": ["정형 데이터 마이닝", "통계분석 비교"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_041",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "데이터에 명확한 정답(레이블)이 존재하는 상황에서, 종속변수(타깃)가 범주형(이산형)일 때 수행하는 지도학습 기법은?",
+    "options": ["분류(Classification)", "예측(Prediction)", "군집분석(Clustering)", "연관분석(Association Rule)"],
+    "answer": 0,
+    "explanation": "종속변수가 범주형(이산형)인 지도학습은 분류(Classification)이다. 종속변수가 연속형 숫자인 경우는 예측(Prediction)이며, 군집분석과 연관분석은 정답이 없는 비지도학습이다.",
+    "tags": ["정형 데이터 마이닝", "지도학습"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_042",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "의사결정나무에서 범주형 타깃 변수의 분리 기준으로 사용되며, 값이 작을수록 노드 내 순도가 높음을 의미하고 CART 알고리즘에서 사용하는 지표는?",
+    "options": ["지니 지수(Gini Index)", "엔트로피 지수(Entropy Index)", "카이제곱 통계량", "F-통계량"],
+    "answer": 0,
+    "explanation": "지니 지수는 CART 알고리즘에서 사용하는 분리 기준으로, 값이 작을수록 노드 내 순도가 높고 잘 분리된 것으로 판단한다. 엔트로피 지수는 C4.5/C5.0 알고리즘에서 사용한다.",
+    "tags": ["정형 데이터 마이닝", "의사결정나무"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_043",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "로지스틱 회귀분석에서 독립변수 X1이 1단위 증가할 때 성공의 오즈(Odds)가 어떻게 변화하는지 나타내는 해석 방법은?",
+    "options": ["오즈비(Odds Ratio)가 e의 회귀계수(β1) 제곱근 배만큼 증가", "오즈(Odds)가 e^β1 배 증가", "확률(p)이 β1 배만큼 선형적으로 증가", "오즈가 항상 β1과 동일하게 증가"],
+    "answer": 1,
+    "explanation": "로지스틱 회귀에서 독립변수 X1이 1단위 증가할 때, 다른 변수가 고정되어 있다면 성공의 오즈(Odds)는 e^β1 배 증가한다. 확률이 아니라 오즈가 배수로 변화한다는 점에 유의해야 한다.",
+    "tags": ["정형 데이터 마이닝", "로지스틱 회귀"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_044",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "인공신경망의 활성화 함수 중, 입력이 0 이하면 0을, 0을 초과하면 입력값 그대로를 반환하며 기울기 소실 문제를 극복해 가장 널리 사용되는 함수는?",
+    "options": ["시그모이드 함수", "계단 함수", "ReLU 함수", "하이퍼볼릭 탄젠트(tanh)"],
+    "answer": 2,
+    "explanation": "ReLU 함수는 입력이 0 이하면 0을, 0을 초과하면 입력값 그대로를 반환하는 함수로, 계산이 빠르고 기울기 소실 문제를 극복하여 현대 딥러닝 은닉층에서 가장 대중적으로 사용된다.",
+    "tags": ["정형 데이터 마이닝", "인공신경망"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_045",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "서포트 벡터 머신(SVM)의 목표로 가장 적절한 것은?",
+    "options": [
+      "두 클래스 간의 마진(Margin)을 최대화하는 최적 분리 초평면을 찾는 것",
+      "군집 내 오차제곱합을 최소화하는 것",
+      "잔차의 정규성을 검정하는 것",
+      "결측값을 대치하여 데이터 완전성을 확보하는 것"
+    ],
+    "answer": 0,
+    "explanation": "SVM은 데이터를 분리하는 수많은 초평면 중 두 클래스 간의 거리(마진)를 가장 크게 넓혀주는 최적 분리 초평면을 찾는 것을 목표로 하는 분류 기법이다.",
+    "tags": ["정형 데이터 마이닝", "SVM"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_046",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "앙상블 기법 중 '배깅(Bagging)'의 원리로 가장 적절한 것은?",
+    "options": [
+      "이전 모형이 잘못 분류한 데이터에 가중치를 높여 순차적으로 학습한다.",
+      "부트스트랩 샘플로 여러 모델을 병렬적으로 학습시킨 후 투표 또는 평균으로 결과를 결합한다.",
+      "군집의 중심점을 반복적으로 갱신하여 군집화한다.",
+      "입력 데이터를 저차원 격자로 매핑하여 시각화한다."
+    ],
+    "answer": 1,
+    "explanation": "배깅(Bagging)은 원본 데이터에서 복원 추출한 부트스트랩 샘플로 여러 모델을 병렬적으로 학습시킨 후, 분류는 다수결 투표, 회귀는 평균으로 결과를 결합하여 분산을 줄이는 기법이다.",
+    "tags": ["정형 데이터 마이닝", "앙상블"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_047",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "비계층적 군집분석 기법인 K-평균(K-Means) 군집분석의 특징으로 가장 적절하지 않은 것은?",
+    "options": [
+      "군집의 개수(K)를 분석가가 사전에 지정해야 한다.",
+      "이상치와 초기 중심점 위치에 민감하다.",
+      "덴드로그램을 통해 군집 계층 구조를 시각화한다.",
+      "볼록한 구형(Spherical) 군집을 잘 찾아낸다."
+    ],
+    "answer": 2,
+    "explanation": "덴드로그램은 계층적 군집분석에서 사용하는 시각화 도구이다. K-평균은 군집 수(K)를 사전에 지정해야 하며 계층 구조가 아닌 평면적 군집화를 수행하므로 덴드로그램을 사용하지 않는다.",
+    "tags": ["정형 데이터 마이닝", "K-평균"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_048",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "총 거래 건수가 500건인 거래 데이터베이스에서 품목 A가 포함된 거래는 200건, 품목 B가 포함된 거래는 100건이며, A와 B가 동시에 구매된 거래가 50건일 때, 연관규칙 'A → B'의 지지도(Support) 값은?",
+    "options": ["0.10", "0.25", "0.40", "0.50"],
+    "answer": 0,
+    "explanation": "지지도(Support)는 전체 거래 중 A와 B가 동시에 포함된 거래의 비율이므로 Support(A→B) = 50/500 = 0.10이다.",
+    "tags": ["정형 데이터 마이닝", "연관분석", "계산문제"],
+    "difficulty": "중",
+    "questionType": "calculation"
+  },
+  {
+    "id": "exam1_049",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "분류모형 평가지표 중 '실제 양성 데이터 중에서 양성으로 올바르게 예측한 비율'을 의미하는 지표는?",
+    "options": ["정밀도(Precision)", "재현율(Recall)", "특이도(Specificity)", "정확도(Accuracy)"],
+    "answer": 1,
+    "explanation": "재현율(Recall)은 실제 양성 사례 중에서 모델이 양성으로 올바르게 예측한 비율(TP/(TP+FN))이다. 정밀도는 양성으로 예측한 것 중 실제 양성인 비율이다.",
+    "tags": ["정형 데이터 마이닝", "분류모형평가"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "exam1_050",
+    "part": 3,
+    "chapter": "mockexam",
+    "content": "ROC 곡선 아래의 면적을 뜻하며, 1에 가까울수록 분류 모형의 판별력이 우수함을 나타내는 지표는?",
+    "options": ["AUC(Area Under Curve)", "F1-Score", "실루엣 계수", "더빈-왓슨 통계량"],
+    "answer": 0,
+    "explanation": "AUC는 ROC 곡선 아래의 면적으로, 최소 0.5(무작위 모형)에서 최대 1.0(완벽한 모형) 사이의 범위를 가지며 1에 가까울수록 판별력이 우수한 모형이다.",
+    "tags": ["정형 데이터 마이닝", "ROC-AUC"],
+    "difficulty": "중",
+    "questionType": "concept"
+  }
+]

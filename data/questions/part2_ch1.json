@@ -1,0 +1,342 @@
+[
+  {
+    "id": "p2c1_001",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "분석 기획의 목표 시점별 접근 방식 중 '장기적 마스터플랜 방식'의 특징으로 올바르지 않은 것은?",
+    "options": [
+      "지속적이고 체계적인 분석 문화 내재화를 목표로 한다.",
+      "핵심 가치로 Speed와 Test를 강조하여 신속한 성과를 검증한다.",
+      "의사결정 프로세스 관점에서는 Problem Definition(문제 정의)을 중시한다.",
+      "과제 중심의 일회성 해결보다 중장기적 마스터플랜 단위로 접근한다."
+    ],
+    "answer": 1,
+    "explanation": "Speed & Test는 단기적인 과제 중심적 접근 방식의 핵심 가치이며, 장기적 마스터플랜 방식은 Accuracy & Deploy를 핵심 가치로 삼는다.",
+    "tags": ["분석기획", "방향성", "마스터플랜"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_002",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "분석 주제 유형 사분면 중, 분석의 대상(What)은 명확히 인지하고 있으나 구체적인 분석 방법(How)을 알지 못할 때 취하는 유형은?",
+    "options": [
+      "최적화 (Optimization)",
+      "솔루션 (Solution)",
+      "통찰 (Insight)",
+      "발견 (Discovery)"
+    ],
+    "answer": 1,
+    "explanation": "분석 대상을 알고 방법은 모르는 경우 '솔루션(Solution)' 유형에 해당한다. 참고로 대상/방법 모두 알면 최적화, 대상은 모르고 방법만 알면 통찰, 둘 다 모르면 발견이다.",
+    "tags": ["분석주제", "사분면", "솔루션"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_003",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "분석 기획 시 고려사항 중 '장애 요소에 대한 사전 계획(Barriers)'에 대한 설명으로 가장 적절하지 않은 것은?",
+    "options": [
+      "프로젝트 리스크 관리를 위해 사전 검토가 필수적이다.",
+      "데이터를 다루는 기술적 한계 및 인프라의 가용성만을 엄격하게 정의하여 통제해야 한다.",
+      "조직의 변화관리나 고유한 조직 문화 등 비기술적 장애 요소를 식별해야 한다.",
+      "인력의 데이터 역량 부족이나 예산적 한계도 주요 장애 요소로 고려한다."
+    ],
+    "answer": 1,
+    "explanation": "장애 요소 사전 계획은 기술적 한계뿐만 아니라 조직 문화, 예산, 인력의 역량 등 비기술적인 리스크 및 장애 요소까지 포괄하여 계획을 수립해야 성공 확률을 높일 수 있다.",
+    "tags": ["분석기획", "고려사항", "장애요소"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_004",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "데이터 분석 방법론의 계층 구조에 관한 설명 중 가장 적절하지 않은 것은?",
+    "options": [
+      "단계(Phase)는 최상위 계층으로, 각 단계는 버전 관리 및 통제의 기준선(Baseline)이 된다.",
+      "태스크(Task)는 단계를 구성하는 세부 활동으로 물리적 또는 논리적 품질 검토 단위가 된다.",
+      "스텝(Step)은 최하위 실행 단위이며 WBS의 워크 패키지에 해당한다.",
+      "스텝(Step)은 입력(Input)과 처리(Process)로만 구성되며 결과물인 출력(Output)은 태스크 단독으로 도출된다."
+    ],
+    "answer": 3,
+    "explanation": "최하위 단위인 스텝(Step)은 입력(Input), 처리(Process), 출력(Output)의 명확한 구조적 체계를 갖추고 수행된다.",
+    "tags": ["분석방법론", "계층구조", "스텝"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_005",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "KDD 분석 절차 중 '분석 목적에 맞는 변수를 선택하거나 데이터의 차원을 축소하고, 데이터 스케일링을 수행하여 분석 효율을 높이는 단계'는?",
+    "options": [
+      "데이터 전처리 (Preprocessing)",
+      "데이터 변환 (Transformation)",
+      "데이터 마이닝 (Data Mining)",
+      "해석 및 평가 (Interpretation/Evaluation)"
+    ],
+    "answer": 1,
+    "explanation": "KDD 방법론에서 변수 선택, 차원 축소, 정규화 및 스케일링 등 마이닝을 고도화하기 위해 데이터를 가공하는 단계는 '데이터 변환(Transformation)' 단계이다. 결측치나 이상치를 정제하는 단계는 전처리(Preprocessing)이다.",
+    "tags": ["분석방법론", "KDD", "데이터변환"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_006",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "KDD 분석 절차에서 결측치(Missing Value)와 이상치(Outlier)를 식별하고 노이즈를 제거하여 데이터의 신뢰성을 정제하는 단계는?",
+    "options": [
+      "데이터 선택 (Selection)",
+      "데이터 전처리 (Preprocessing)",
+      "데이터 변환 (Transformation)",
+      "데이터 마이닝 (Data Mining)"
+    ],
+    "answer": 1,
+    "explanation": "잡음(노이즈), 이상치, 결측치를 정제하여 데이터셋의 품질을 높이는 단계는 '데이터 전처리(Preprocessing)' 단계이다.",
+    "tags": ["분석방법론", "KDD", "데이터전처리"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_007",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "CRISP-DM 분석 방법론의 6단계 프로세스 중, 비즈니스 목적 파악 및 상황 분석을 토대로 '데이터 마이닝의 목표를 설정'하는 단계는?",
+    "options": [
+      "업무 이해 (Business Understanding)",
+      "데이터 이해 (Data Understanding)",
+      "데이터 준비 (Data Preparation)",
+      "모델링 (Modeling)"
+    ],
+    "answer": 0,
+    "explanation": "비즈니스 관점의 요구사항을 데이터 분석 문제 및 데이터 마이닝 목표로 정의하는 단계는 '업무 이해(Business Understanding)' 단계이다.",
+    "tags": ["분석방법론", "CRISP-DM", "업무이해"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_008",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "CRISP-DM의 '모델링(Modeling)' 단계에서 수행되는 주요 세부 활동(태스크)에 해당하지 않는 것은?",
+    "options": [
+      "모델링 기법 선택",
+      "모델 작성",
+      "모델 테스트 계획 설계",
+      "업무 관점에서의 모델 적용성 평가"
+    ],
+    "answer": 3,
+    "explanation": "업무 관점 또는 비즈니스 목적과의 부합성을 확인하는 '모델 적용성 평가'는 모델링 다음 단계인 '평가(Evaluation)' 단계의 태스크이다.",
+    "tags": ["분석방법론", "CRISP-DM", "모델링", "평가"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_009",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "CRISP-DM 분석 방법론의 '평가(Evaluation)' 단계에 대한 설명으로 올바른 것은?",
+    "options": [
+      "다양한 알고리즘을 선택하고 파라미터를 최적화하는 단계이다.",
+      "분석용 최종 데이터셋을 선택하고 정제 및 결합을 수행하는 단계이다.",
+      "모델링 과정의 평가와 함께 모델의 결과가 비즈니스 목적에 부합하는지 검증한다.",
+      "완성된 모델을 운영 환경에 적용하고 실시간 모니터링 계획을 수립한다."
+    ],
+    "answer": 2,
+    "explanation": "평가(Evaluation) 단계는 모델링 결과 평가, 모델링 과정 평가, 비즈니스 목적 및 목표에 대한 모델 적용성 평가를 병행하여 수행한다. 1번은 모델링, 2번은 데이터 준비, 4번은 전개 단계에 대한 설명이다.",
+    "tags": ["분석방법론", "CRISP-DM", "평가"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_010",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "SAS 통계 패키지를 기반으로 제안되었으며, 'Sample → Explore → Modify → Model → Assess'의 5단계 순환 구조를 가진 기술 중심의 분석 방법론은?",
+    "options": [
+      "KDD",
+      "CRISP-DM",
+      "SEMMA",
+      "Waterfall"
+    ],
+    "answer": 2,
+    "explanation": "SAS 연구소 주도 하에 제안된 샘플링(Sample), 탐색(Explore), 수정(Modify), 모델링(Model), 평가(Assess) 체계는 'SEMMA' 방법론이다.",
+    "tags": ["분석방법론", "SEMMA"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_011",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "분석 과제 발굴 방법 중 '하향식 접근법(Top-Down Approach)'의 프로세스 순서가 올바르게 나열된 것은?",
+    "options": [
+      "문제 탐색 → 문제 정의 → 해결방안 탐색 → 타당성 검토 → 과제 선정",
+      "문제 정의 → 문제 탐색 → 타당성 검토 → 해결방안 탐색 → 과제 선정",
+      "데이터 탐색 → 비지도 학습 → 가치 발굴 → 타당성 검토 → 과제 선정",
+      "비즈니스 모델 분석 → 타당성 검토 → 문제 정의 → 해결방안 탐색 → 과제 선정"
+    ],
+    "answer": 0,
+    "explanation": "하향식 접근법은 문제 탐색(Problem Discovery) → 문제 정의(Problem Definition) → 해결방안 탐색(Solution Search) → 타당성 검토(Feasibility Study) → 과제 선정 순으로 진행된다.",
+    "tags": ["분석과제발굴", "하향식", "프로세스"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_012",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "하향식 접근법의 '문제 탐색(Problem Discovery)' 단계에서 비즈니스 모델을 기반으로 누락 없이 과제를 도출하기 위한 5대 축(영역)에 포함되지 않는 것은?",
+    "options": [
+      "업무 (Operations) 및 제품 (Product)",
+      "고객 (Customer) 및 지원 인프라 (Support Infrastructure)",
+      "규제와 감사 (Regulation & Audit)",
+      "데이터 거버넌스 (Data Governance) 체계"
+    ],
+    "answer": 3,
+    "explanation": "비즈니스 모델 기반 문제 탐색의 5대 영역은 업무, 제품, 고객, 규제와 감사, 지원 인프라이다. 데이터 거버넌스 체계는 마스터 플랜 수립의 거버넌스 구성 요소로 분류된다.",
+    "tags": ["분석과제발굴", "하향식", "문제탐색"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_013",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "하향식 접근법의 '문제 정의(Problem Definition)' 단계에 대한 설명으로 가장 적절한 것은?",
+    "options": [
+      "사용자의 비즈니스적 요구사항과 문제의 해결 가치에만 온전히 집중하여 비즈니스 모델을 분석한다.",
+      "식별된 비즈니스 문제를 데이터 분석 문제로 변환하여 가용 데이터 및 기법을 재정의한다.",
+      "비용 대비 투자자본수익률(ROI) 분석을 통해 경제적 타당성을 수리적으로 평가한다.",
+      "RDB 혹은 NoSQL 중 어떠한 데이터 인프라 솔루션을 도입할지 기술 아키텍처를 결정한다."
+    ],
+    "answer": 1,
+    "explanation": "문제 정의 단계는 비즈니스 관점의 문제를 '데이터 분석 관점의 문제'로 변환하여, 분석을 수행할 수 있는 구체적인 구조로 재정의하는 핵심 단계이다. 1번은 문제 탐색, 3번은 타당성 검토, 4번은 해결방안 탐색에 가깝다.",
+    "tags": ["분석과제발굴", "하향식", "문제정의"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_014",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "하향식 접근법의 '타당성 검토(Feasibility Study)' 단계에서 기술적 타당성(Technical Feasibility)을 평가하는 핵심 요소로만 짝지어진 것은?",
+    "options": [
+      "비즈니스 가치, 비용 대비 투자자본수익률(ROI)",
+      "데이터 가용성, 조직 내 분석 역량, IT 인프라 여건",
+      "유스케이스 벤치마킹 활용도, 프로세스 혁신성",
+      "정확도와 정밀도의 상호 트레이드오프(Trade-off) 수준"
+    ],
+    "answer": 1,
+    "explanation": "기술적 타당성은 필요한 데이터가 존재하는지(데이터 가용성), 이를 다룰 분석 기술 및 인력의 분석 역량이 있는지, IT 인프라 여건이 뒷받침되는지를 객관적으로 검토한다. 1번은 경제적 타당성에 해당한다.",
+    "tags": ["분석과제발굴", "하향식", "타당성검토"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_015",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "상향식 접근법(Bottom-Up Approach)의 특징에 관한 설명으로 가장 올바르지 않은 것은?",
+    "options": [
+      "사전에 문제 정의가 명확하지 않거나 불명확할 때 효과적으로 적용된다.",
+      "보유한 데이터 자체를 깊이 있게 탐색(Exploration)하면서 점진적으로 과제를 도출한다.",
+      "반복적인 시행착오(Trial and Error)를 통해 새로운 비즈니스 인사이트를 도출한다.",
+      "정답(레이블)이 명확히 존재하는 분류 분석 및 지도학습 기법을 핵심 기반으로 선행 작동한다."
+    ],
+    "answer": 3,
+    "explanation": "상향식 접근법은 기준이 되는 종속변수(정답 레이블)가 없는 상태에서 데이터의 숨겨진 패턴, 군집, 연관성을 파악하는 비지도 학습(Unsupervised Learning) 기법과 긴밀하게 연계된다.",
+    "tags": ["분석과제발굴", "상향식", "비지도학습"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_016",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "하향식 접근법의 체계적인 '수렴(Convergence)' 과정과 상향식 접근법의 창의적인 '발산(Divergence)' 과정을 반복적·순환적으로 결합하여 혁신적 과제를 발굴하는 방법론은?",
+    "options": [
+      "Information Strategy Planning (ISP)",
+      "디자인 씽킹 (Design Thinking)",
+      "폭포수 모델 (Waterfall Model)",
+      "애자일 스크럼 (Agile Scrum)"
+    ],
+    "answer": 1,
+    "explanation": "하향식(수렴)과 상향식(발산)의 장점을 유기적으로 결합하여 상호보완적으로 문제를 해결하는 혁신 기법은 디자인 씽킹(Design Thinking)이다.",
+    "tags": ["분석과제발굴", "디자인씽킹"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_017",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "데이터 분석 프로젝트의 특수성을 고려한 5대 관리 속성(Data Size, Data Complexity, Speed, Analytic Complexity, Accuracy & Precision) 중, 알고리즘이 복잡해질수록 정확도(Accuracy)는 향상될 수 있으나 모델의 해석력(Explainability)이 저하되는 현상을 관리하기 위한 속성은?",
+    "options": [
+      "Data Size (데이터 크기)",
+      "Data Complexity (데이터 복잡성)",
+      "Analytic Complexity (분석 복잡성)",
+      "Accuracy & Precision (정확도와 정밀도)"
+    ],
+    "answer": 2,
+    "explanation": "분석 모델의 정확도(Accuracy)와 알고리즘의 복잡성 간의 트레이드오프(Trade-off)를 고려하고 최적의 해석력을 확보하도록 조율하는 관리 속성은 '분석 복잡성(Analytic Complexity)'이다.",
+    "tags": ["분석프로젝트", "프로젝트관리", "분석복잡성"],
+    "difficulty": "상",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_018",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "분석 프로젝트 관리 항목 중 '정확도(Accuracy)'와 '정밀도(Precision)'에 대한 설명으로 옳은 것은?",
+    "options": [
+      "정확도는 모델 예측값들이 얼마나 일정하게 밀집해 있는지를 의미한다.",
+      "정밀도는 실제 참값과 모델의 예측값이 얼마나 일치하는지를 나타낸다.",
+      "두 지표는 프로젝트 기획 단계에서 품질 기준(Baseline)으로 명확히 정의되어 관리되어야 한다.",
+      "정확도와 정밀도는 항상 비례하므로 알고리즘의 복잡성이 증가하면 두 지표 모두 무조건 상승한다."
+    ],
+    "answer": 2,
+    "explanation": "정확도는 실제 참값과의 일치도, 정밀도는 예측값들의 밀집도(편차)를 의미하며, 분석 프로젝트 초기 단계에 이 기준들을 사전에 정의해야 리스크를 방지할 수 있다. 두 지표는 트레이드오프 관계가 생길 수 있으므로 무조건 비례하여 상승하지 않는다.",
+    "tags": ["분석프로젝트", "정확도", "정밀도"],
+    "difficulty": "중",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_019",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "분석 프로젝트 관리 시 텍스트, 오디오, 이미지 등 반정형·비정형 데이터가 결합될 때 정제 기법과 적합한 알고리즘 선정이 정교해져야 함을 의미하는 주요 속성은?",
+    "options": [
+      "Data Size",
+      "Data Complexity",
+      "Speed",
+      "Accuracy"
+    ],
+    "answer": 1,
+    "explanation": "정형 데이터 외 다양한 반정형/비정형 원천 데이터의 혼재로 사전 정제 및 알고리즘 선정이 고도화되는 관리는 데이터 복잡성(Data Complexity) 영역이다.",
+    "tags": ["분석프로젝트", "데이터복잡성"],
+    "difficulty": "하",
+    "questionType": "concept"
+  },
+  {
+    "id": "p2c1_020",
+    "part": 2,
+    "chapter": "part2_ch1",
+    "content": "분석 기획 시 가용한 데이터 확인 과정에서 정형 데이터와 비정형 데이터를 저장하기 위한 인프라 솔루션 매칭으로 가장 적절한 것은?",
+    "options": [
+      "정형 데이터 - NoSQL , 비정형 데이터 - RDB",
+      "정형 데이터 - RDB , 비정형 데이터 - NoSQL",
+      "정형 데이터 - 데이터 레이크 , 비정형 데이터 - 스프레드시트",
+      "정형 데이터 - 웹파싱 , 비정형 데이터 - 고정 스키마 데이터베이스"
+    ],
+    "answer": 1,
+    "explanation": "고정된 스키마와 구조를 가지는 정형 데이터는 관계형 데이터베이스(RDB)에 적합하고, 구조가 없고 방대한 분산 저장이 요구되는 반정형/비정형 데이터는 NoSQL 시스템에 효과적으로 저장·관리된다.",
+    "tags": ["가용데이터", "RDB", "NoSQL"],
+    "difficulty": "중",
+    "questionType": "concept"
+  }
+]
