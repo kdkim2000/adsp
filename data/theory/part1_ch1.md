@@ -51,14 +51,18 @@
 ### 5. DIKW 피라미드 (데이터와 정보의 관계 위계)
 데이터가 단순한 사실에서 출발하여 인간의 지혜로 발전하는 4단계의 위계 구조이다.
 
-```
-       ▲
-      / \       Wisdom (지혜) : 근본 원리에 대한 깊은 통찰력과 창의적 판단
-     /   \      Knowledge (지식) : 정보의 구조화 및 개인의 경험과 결합, 예측·실행
-    /     \     Information (정보) : 데이터의 가공 및 상관관계 분석을 통한 의미 도출
-   /       \    Data (데이터) : 가공하기 전의 순수한 수치나 객관적 사실 그 자체
-  /_________\
-```
+<div style="display:flex;justify-content:center;margin:1.5rem 0">
+<svg viewBox="0 0 460 240" width="100%" style="max-width:420px;height:auto" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="110,10 85,65 135,65" fill="#3730A3" stroke="#FFFFFF" stroke-width="1.5" />
+  <polygon points="85,65 135,65 160,120 60,120" fill="#4F46E5" stroke="#FFFFFF" stroke-width="1.5" />
+  <polygon points="60,120 160,120 185,175 35,175" fill="#818CF8" stroke="#FFFFFF" stroke-width="1.5" />
+  <polygon points="35,175 185,175 210,230 10,230" fill="#C7D2FE" stroke="#FFFFFF" stroke-width="1.5" />
+  <text x="235" y="42" font-family="'Noto Sans KR', sans-serif" font-size="16" style="fill:var(--q-ink);font-weight:700">Wisdom · 지혜</text>
+  <text x="235" y="97" font-family="'Noto Sans KR', sans-serif" font-size="16" style="fill:var(--q-ink);font-weight:700">Knowledge · 지식</text>
+  <text x="235" y="152" font-family="'Noto Sans KR', sans-serif" font-size="16" style="fill:var(--q-ink);font-weight:700">Information · 정보</text>
+  <text x="235" y="207" font-family="'Noto Sans KR', sans-serif" font-size="16" style="fill:var(--q-ink);font-weight:700">Data · 데이터</text>
+</svg>
+</div>
 
 | 단계 | 정의 | 대표 사례 예시 |
 |------|------|--------------|
