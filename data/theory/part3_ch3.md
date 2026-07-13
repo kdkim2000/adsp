@@ -51,14 +51,15 @@
 
   * **범주형(이산형) 타깃 변수의 분리 기준**
     * **지니 지수(Gini Index)**:
-      ```
-      Gini(T) = 1 - Σ pᵢ²   (i = 1 ... k, pᵢ = 각 범주의 비율)
-      ```
+      <div style="text-align:center;margin:1rem 0;padding:0.9rem 1.1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink)">
+      <div style="font-size:1.05rem;font-style:italic">Gini(T) = 1 − Σ p<sub>i</sub><sup>2</sup></div>
+      <div style="font-size:0.78rem;color:var(--q-ink-muted);margin-top:0.3rem">i = 1, …, k · pᵢ = 각 범주의 비율</div>
+      </div>
       값이 **작을수록** 노드 내 순도가 높고 잘 분리된 것이다. **CART 알고리즘**에서 사용한다.
     * **엔트로피 지수(Entropy Index)**:
-      ```
-      Entropy(T) = - Σ pᵢ log₂(pᵢ)
-      ```
+      <div style="text-align:center;margin:1rem 0;padding:0.9rem 1.1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink);font-size:1.05rem;font-style:italic">
+      Entropy(T) = −Σ p<sub>i</sub> log<sub>2</sub>(p<sub>i</sub>)
+      </div>
       값이 0일 때 가장 순수하며, **C4.5 / C5.0 알고리즘**에서 사용한다.
     * **카이제곱 통계량의 p-value**: p-value가 가장 작은(유의성이 가장 높은) 변수를 선택하여 분리한다. **CHAID 알고리즘**에서 사용한다.
   * **연속형 타깃 변수의 분리 기준**
@@ -74,17 +75,18 @@
 * **개념**: 종속변수가 범주형(주로 이진형, 성공 1 또는 실패 0)일 때 독립변수와 종속변수 간의 관계를 설명하고 분류하는 회귀 기반 모형이다. 일반 선형 회귀와 달리 최소제곱법이 아닌 **최대우도추정법**(MLE)으로 파라미터를 추정한다.
 * **핵심 원리 및 변환 과정**: 확률 p 자체를 회귀식의 종속변수로 두면 오른쪽 항의 범위(-∞ ~ +∞)와 왼쪽 항의 범위(0 ≤ p ≤ 1)가 일치하지 않는 문제가 발생하므로 변환을 거친다.
   * **오즈(Odds)**: 실패 확률 대비 성공 확률의 비
-    ```
-    Odds = p / (1 - p)      범위: 0 ~ +∞
-    ```
+    <div style="text-align:center;margin:1rem 0;padding:0.9rem 1.1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink)">
+    <div style="font-size:1.05rem;font-style:italic">Odds = p / (1 − p)</div>
+    <div style="font-size:0.78rem;color:var(--q-ink-muted);margin-top:0.3rem">범위: 0 ~ +∞</div>
+    </div>
   * **로짓 변환(Logit Transformation)**: 오즈에 자연로그를 취해 종속변수의 범위를 -∞ ~ +∞로 완전히 일치시키는 과정
-    ```
-    ln( p / (1-p) ) = β₀ + β₁X₁ + β₂X₂ + ... + βₖXₖ
-    ```
+    <div style="text-align:center;margin:1rem 0;padding:0.9rem 1.1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink);font-size:1.05rem;font-style:italic">
+    ln( p / (1−p) ) = β<sub>0</sub> + β<sub>1</sub>X<sub>1</sub> + β<sub>2</sub>X<sub>2</sub> + ⋯ + β<sub>k</sub>X<sub>k</sub>
+    </div>
   * **시그모이드 함수(Sigmoid/Logistic Function)**: 로짓 변환된 선형 회귀식을 다시 확률 p에 대해 정리한 공식으로, S자 형태의 누적분포함수 모양을 가진다.
-    ```
-    p = 1 / (1 + e^-(β₀+β₁X₁+...+βₖXₖ))
-    ```
+    <div style="text-align:center;margin:1rem 0;padding:0.9rem 1.1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink);font-size:1.05rem;font-style:italic">
+    p = 1 / (1 + e<sup>−(β<sub>0</sub>+β<sub>1</sub>X<sub>1</sub>+⋯+β<sub>k</sub>X<sub>k</sub>)</sup>)
+    </div>
 * **해석 방법(Odds Ratio)**: 독립변수 X₁이 1단위 증가할 때, 다른 독립변수들이 고정되어 있다면 성공의 **오즈(Odds)가 e^β₁배 증가**한다.
 * **R 함수**: `glm(formula, data, family = "binomial")` 형태로 family 인자에 반드시 `"binomial"`을 지정해야 로지스틱 회귀분석이 수행된다.
 
@@ -211,17 +213,17 @@
 ### 1) 연관성 측정 3대 평가지표
 
 * **지지도(Support)**: 전체 거래 건수 중 품목 A와 B가 동시에 포함되어 구매된 거래의 비율. 규칙의 전반적인 빈도를 나타낸다.
-  ```
-  Support(A→B) = P(A∩B) = (A와 B가 동시에 포함된 거래 수) / (전체 거래 수)
-  ```
+  <div style="text-align:center;margin:1rem 0;padding:0.9rem 1.1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink);font-size:1.02rem">
+  <i>Support(A→B) = P(A∩B)</i> = (A와 B가 동시에 포함된 거래 수) / (전체 거래 수)
+  </div>
 * **신뢰도(Confidence)**: 품목 A를 구매한 거래 중에서 품목 B도 함께 구매했을 조건부 확률. 규칙의 확실성(강도)을 나타낸다.
-  ```
+  <div style="text-align:center;margin:1rem 0;padding:0.9rem 1.1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink);font-size:1.05rem;font-style:italic">
   Confidence(A→B) = P(B|A) = Support(A→B) / Support(A)
-  ```
+  </div>
 * **향상도(Lift)**: 품목 A의 구매 여부가 품목 B의 구매 확률을 우연 수준에 비해 얼마나 증가시키는지 측정
-  ```
+  <div style="text-align:center;margin:1rem 0;padding:0.9rem 1.1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink);font-size:1.05rem;font-style:italic">
   Lift(A→B) = Confidence(A→B) / Support(B) = P(A∩B) / (P(A)×P(B))
-  ```
+  </div>
   * **Lift = 1**: A와 B는 서로 아무 상관관계가 없는 독립적인 관계 (연관 규칙으로서 가치 없음)
   * **Lift > 1**: 양의 상관관계. A를 구매한 것이 B를 구매할 확률을 높이는 유의미한 연관 규칙
   * **Lift < 1**: 음의 상관관계. A를 구매하면 오히려 B를 구매하지 않을 확률이 높아지는 대체재 성격
@@ -276,9 +278,9 @@
 
 모형을 적용하지 않고 무작위로 타깃을 선택했을 때의 반응률과, 모형이 예측한 확률이 높은 순으로 정렬하여 상위 구간(주로 10분위)을 선택했을 때의 반응률을 비교하여 향상 정도를 나타내는 도표이다.
 
-```
-Lift Factor = (해당 구간 모형 적용 시 반응률) / (무작위 선택 시 기본 반응률)
-```
+<div style="text-align:center;margin:1rem 0;padding:0.9rem 1.1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink);font-size:1rem">
+<i>Lift Factor</i> = (해당 구간 모형 적용 시 반응률) / (무작위 선택 시 기본 반응률)
+</div>
 
 모형의 성능이 우수할수록 상위 구간(10~20%)에서 향상도가 급격히 높게 나타나다가 하위 구간으로 갈수록 낮아진다. 성능이 나쁜 모형은 전 구간에서 향상도가 1에 가깝게 평평하게 유지된다.
 

@@ -139,9 +139,9 @@
 
 ### 2) 회귀분석의 기본 수식과 유형
 
-```
-Y = β₀ + β₁X₁ + β₂X₂ + ... + βₖXₖ + ε
-```
+<div style="text-align:center;margin:1.5rem 0;padding:1rem 1.25rem;background:var(--q-border);border-radius:0.75rem;font-size:1.15rem;font-style:italic;color:var(--q-ink)">
+Y = β<sub>0</sub> + β<sub>1</sub>X<sub>1</sub> + β<sub>2</sub>X<sub>2</sub> + ⋯ + β<sub>k</sub>X<sub>k</sub> + ε
+</div>
 
 * **단순 선형 회귀**: 하나의 독립변수와 하나의 종속변수 간의 인과관계 분석
 * **다중 회귀분석**: 둘 이상의 독립변수로 종속변수를 예측하는 모델
