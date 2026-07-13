@@ -46,17 +46,33 @@
 
 우선순위 평가 결과를 바탕으로 시급성(현재/미래)과 난이도(Difficult/Easy)의 사분면 매트릭스에 과제를 배치하여 실행 순서를 결정한다.
 
-```
-       [난이도: Difficult]
-               │
-        Ⅰ 영역 │  Ⅱ 영역
-               │
-현재 ──────────┼────────── 미래 [시급성]
-               │
-       Ⅲ 영역  │  Ⅳ 영역
-               │
-         [난이도: Easy]
-```
+<div style="margin:1.5rem 0;max-width:420px;margin-left:auto;margin-right:auto">
+<div style="text-align:center;font-size:0.78rem;color:var(--q-ink-muted);margin-bottom:0.4rem">난이도: Difficult</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--q-primary)">
+<div style="background:var(--q-surface);padding:1.1rem 0.75rem;text-align:center">
+<div style="font-weight:700;color:var(--q-ink)">Ⅰ 영역</div>
+<div style="font-size:0.78rem;color:var(--q-ink-muted);margin-top:0.2rem">현재 · Difficult</div>
+</div>
+<div style="background:var(--q-surface);padding:1.1rem 0.75rem;text-align:center">
+<div style="font-weight:700;color:var(--q-ink)">Ⅱ 영역</div>
+<div style="font-size:0.78rem;color:var(--q-ink-muted);margin-top:0.2rem">미래 · Difficult</div>
+</div>
+<div style="background:var(--q-surface);padding:1.1rem 0.75rem;text-align:center">
+<div style="font-weight:700;color:var(--q-ink)">Ⅲ 영역</div>
+<div style="font-size:0.78rem;color:var(--q-ink-muted);margin-top:0.2rem">현재 · Easy</div>
+</div>
+<div style="background:var(--q-surface);padding:1.1rem 0.75rem;text-align:center">
+<div style="font-weight:700;color:var(--q-ink)">Ⅳ 영역</div>
+<div style="font-size:0.78rem;color:var(--q-ink-muted);margin-top:0.2rem">미래 · Easy</div>
+</div>
+</div>
+<div style="text-align:center;font-size:0.78rem;color:var(--q-ink-muted);margin-top:0.4rem">난이도: Easy</div>
+<div style="display:flex;justify-content:space-between;margin-top:0.5rem;font-size:0.78rem;color:var(--q-ink-muted)">
+<span>← 현재</span>
+<span style="font-weight:700;color:var(--q-ink)">시급성</span>
+<span>미래 →</span>
+</div>
+</div>
 
 * **사분면별 특징 및 실행 방향**
   * **Ⅰ 영역 (현재-Difficult)**: 전략적 중요도가 높아 시급하게 추진할 필요가 있으나 난이도가 높아 바로 적용하기 어려움. 데이터 양, 분석 범위 등의 난이도를 조정하여 실행 순서를 앞당길 수 있음
