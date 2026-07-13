@@ -64,9 +64,19 @@
 
 1996년 등장한, 데이터베이스에서 유용한 지식을 발견하기 위한 통계 중심의 체계적인 분석 절차이다. 총 **5단계**로 구성된다.
 
-```
-비즈니스 이해/목표 설정 → 데이터 선택 → 데이터 전처리 → 데이터 변환 → 데이터 마이닝 → 해석 및 평가
-```
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:0.4rem;margin:1.25rem 0">
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">비즈니스 이해/목표 설정</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">데이터 선택</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">데이터 전처리</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">데이터 변환</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">데이터 마이닝</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">해석 및 평가</span>
+</div>
 
 1. **비즈니스 이해와 목표 설정**: 도메인 지식을 바탕으로 분석 목적을 수립한다.
 2. **데이터 선택 (Selection)**: 대상 데이터베이스에서 분석 목적에 맞는 데이터셋을 선정한다.
@@ -102,9 +112,17 @@
 
 SAS 통계 연구소가 예측 모델링에 특화하여 개발한 기술(통계) 중심 분석 방법론으로, 아래 5단계로 진행되는 순환적 절차이다.
 
-```
-Sample → Explore → Modify → Model → Assess
-```
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:0.4rem;margin:1.25rem 0">
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">Sample</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">Explore</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">Modify</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">Model</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">Assess</span>
+</div>
 
 1. **Sample (표본추출)**: 모집단에서 분석에 적합한 크기의 표본을 추출한다. 표본이 모집단의 특성을 충분히 대표하면서도 분석 처리가 가능한 크기여야 한다.
 2. **Explore (탐색)**: 추출된 표본 데이터에 대해 탐색적 데이터 분석(EDA)을 수행하여 변수 간 관계, 이상값, 패턴을 파악한다.
@@ -124,9 +142,17 @@ Sample → Explore → Modify → Model → Assess
 
 문제가 확실하게 주어졌을 때 사용하는 전통적인 방식으로, 각 과정이 체계적이고 단계적으로 진행된다.
 
-```
-문제 탐색 → 문제 정의 → 해결방안 탐색 → 타당성 검토 → 과제 선정
-```
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:0.4rem;margin:1.25rem 0">
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">문제 탐색</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">문제 정의</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">해결방안 탐색</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">타당성 검토</span>
+<span style="color:var(--q-primary);font-weight:700">→</span>
+<span style="background:var(--q-border);color:var(--q-ink);border:1px solid var(--q-primary);border-radius:9999px;padding:0.4rem 0.85rem;font-size:0.82rem;font-weight:600;white-space:nowrap">과제 선정</span>
+</div>
 
 1. **문제 탐색 (Problem Discovery)**: 현재 비즈니스 상태를 분석하여 문제를 도출하는 단계로, 문제를 해결했을 때의 가치에 집중한다.
    - **비즈니스 모델 기반 탐색**: 비즈니스 모델의 5개 영역(업무, 제품, 고객, 규제와 감사, 지원 인프라)을 기준으로 과제를 발굴한다.
