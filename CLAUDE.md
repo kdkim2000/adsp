@@ -16,7 +16,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 | 1과목 | 데이터 이해 | 10문항 | 20점 (문항당 2점) |
 | 2과목 | 데이터분석 기획 | 10문항 | 20점 (문항당 2점) |
 | 3과목 | 데이터분석 | 30문항 | 60점 (문항당 2점) |
-| 합계 | | 50문항 | 100점 / 100분 |
+| 합계 | | 50문항 | 100점 / 90분 |
 
 합격 기준: 전체 60점 이상 + 각 과목 40% 이상
 
@@ -65,14 +65,14 @@ pages/
   theory/[chapterId].tsx       → 이론 본문 (SSG, 8개 경로)
   quiz/index.tsx               → 문제풀기 허브
   quiz/chapter/[chapterId].tsx → 단원별 풀이 (SSG, 8개 경로)
-  quiz/exam.tsx                → 모의고사 (50문항, 100분)
+  quiz/exam.tsx                → 모의고사 (50문항, 90분)
   quiz/result.tsx              → 결과 (3과목별 점수, 문항당 2점)
   quiz/wrong.tsx               → 오답 노트
   quiz/bookmarks.tsx           → 북마크
 components/
   layout/Layout.tsx, TopBar.tsx
   ui/Mascot.tsx, Badge.tsx
-  quiz/QuestionCard, AnswerFeedback, QuizNavigator, ExamTimer(6000초)
+  quiz/QuestionCard, AnswerFeedback, QuizNavigator, ExamTimer(5400초)
   theory/TheoryContent, TheoryTOC, RelatedQuestions
   dashboard/HeroBanner, LearningPath, ChapterProgress, WeakChapters, WeeklyXP, ProgressChart
 lib/
@@ -101,7 +101,7 @@ backup_dasp_20260712/               → 전환 전 DAsP 콘텐츠·문서 백업
   - 모의고사 id: `exam1_001`, `exam2_001`
 - `part: 1 | 2 | 3` (3과목 지원)
 - `chapter: number` (과목별 장 번호: 1과목 1~3, 2과목 1~2, 3과목 1~3)
-- 모의고사: 50문항 (1~2과목 10문항, 3과목 30문항), ExamTimer 6000초(100분), 문항당 2점
+- 모의고사: 50문항 (1~2과목 10문항, 3과목 30문항), ExamTimer 5400초(90분), 문항당 2점
 - `PART_TITLES`는 `lib/chapters.ts`에만 정의되어 있다 — `pages/quiz/exam.tsx`, `pages/quiz/result.tsx` 등에서 절대 재정의하지 말고 반드시 import해서 사용할 것 (과거 DAsP 버전에서 3곳에 중복 정의되어 있던 것을 정리함)
 - 다크모드: CSS 변수(`--q-bg` 등) + `[data-theme="dark"]`, `localStorage('q-theme')`
 
@@ -110,6 +110,6 @@ backup_dasp_20260712/               → 전환 전 DAsP 콘텐츠·문서 백업
 - 새 문제를 추가할 때는 반드시 `npx tsx scripts/validate-questions.ts`로 ID 패턴(`p[1-3]c[1-3]_NNN`)과 스키마를 검증할 것 — 이 스크립트는 파일별·과목별 문항 수 집계도 함께 출력한다
 - 챕터당 문제 수가 늘어나면 `lib/chapters.ts`의 `CHAPTERS` 배열 구조(id/part/chapter/title)는 그대로 두되, 각 항목의 `questionCount` 값만 검증 스크립트 출력값 기준으로 실제 문항 수와 다시 맞출 것 (자동 계산이 아닌 정적 값이므로 수동 동기화 필요)
 - `sampleExamQuestions()`(랜덤 출제)는 매 챕터 문제 풀에서 과목별 목표 문항 수(1~2과목 10개, 3과목 30개)만큼 랜덤 샘플링하므로, 과목별 전체 문제 수가 목표치보다 적으면 문항 수가 줄어든다
-- 화면에 노출되는 시험 규격 문구(`pages/quiz/exam.tsx`, `pages/quiz/index.tsx`의 50문항/100분/3과목, 모드 설명, 합격기준)는 ADsP 공식 기준이므로 실제 콘텐츠 보유량과 무관하게 그대로 유지한다 — 현재 보유 문항 수를 동적으로 노출하는 로직은 의도적으로 추가하지 않았다
+- 화면에 노출되는 시험 규격 문구(`pages/quiz/exam.tsx`, `pages/quiz/index.tsx`의 50문항/90분/3과목, 모드 설명, 합격기준)는 ADsP 공식 기준이므로 실제 콘텐츠 보유량과 무관하게 그대로 유지한다 — 현재 보유 문항 수를 동적으로 노출하는 로직은 의도적으로 추가하지 않았다
 - `mockexam/exam1.json`, `exam2.json`은 실제 필기시험 배점 비율(1과목 10·2과목 10·3과목 30, 총 50문항)을 그대로 반영해 작성되었다. exam1과 exam2는 같은 주제라도 서로 다른 세부 사실을 묻도록 의도적으로 분리했으므로, 추가 보강 시에도 이 원칙(비율 유지, 두 시험 간 비중복)을 지켜야 한다
 - **3과목 R 배제 원칙은 모의고사뿐 아니라 `data/questions/part3_ch{1-3}.json` 챕터별 문제 풀 전체에 적용된다.** `sampleExamQuestions()`(랜덤 출제)는 챕터 문제 풀에서 그대로 샘플링하므로, 챕터 문제에 R 코드/함수/패키지 관련 문항이 남아 있으면 랜덤 출제에도 그대로 노출된다. 별도의 필터링 로직을 두지 않고 데이터 소스 자체를 R-프리하게 유지하는 방식을 채택했으므로, 3과목에 새 문제를 추가할 때는 R 관련 문항을 만들지 않아야 한다

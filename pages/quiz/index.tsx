@@ -37,7 +37,7 @@ export default function QuizIndexPage() {
           <span className="text-3xl">📝</span>
           <div className="text-left">
             <div className="font-bold text-ink group-hover:text-primary-600 transition-colors">모의고사</div>
-            <div className="text-xs text-ink-muted">50문항 · 100분</div>
+            <div className="text-xs text-ink-muted">50문항 · 90분</div>
           </div>
         </button>
 

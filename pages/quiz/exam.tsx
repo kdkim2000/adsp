@@ -29,7 +29,7 @@ const MODE_CONFIG: Record<ExamMode, { label: string; desc: string; icon: string;
   random: { label: '랜덤 출제',    desc: '매회 다른 문제 조합',  icon: '🎲', btnLabel: '랜덤 시험 시작' },
 }
 
-const EXAM_SECONDS = 6000 // 100분
+const EXAM_SECONDS = 5400 // 90분
 
 export default function ExamPage() {
   const router = useRouter()
@@ -233,7 +233,7 @@ export default function ExamPage() {
               <div className="text-xs text-ink-muted mt-1">문항</div>
             </div>
             <div className="q-card bg-surface-soft text-center py-4">
-              <div className="text-2xl font-bold text-primary-600">100</div>
+              <div className="text-2xl font-bold text-primary-600">90</div>
               <div className="text-xs text-ink-muted mt-1">분</div>
             </div>
             <div className="q-card bg-surface-soft text-center py-4">
