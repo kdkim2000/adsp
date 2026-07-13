@@ -24,10 +24,19 @@
 
 분석 기획 시 분석의 대상(What)과 분석의 방법(How)이 인지(Known)되어 있는지, 미지(Unknown)인지에 따라 4가지 유형으로 나뉜다.
 
-| | 방법(How)을 아는 경우 | 방법(How)을 모르는 경우 |
-|---|---|---|
-| **대상(What)을 아는 경우** | 최적화 (Optimization) | 솔루션 (Solution) |
-| **대상(What)을 모르는 경우** | 통찰 (Insight) | 발견 (Discovery) |
+<div style="margin:1.25rem 0;max-width:480px">
+<div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:2px;background:var(--q-primary);font-size:0.85rem">
+<div style="background:var(--q-surface)"></div>
+<div style="background:var(--q-surface);padding:0.7rem;text-align:center;font-weight:700;color:var(--q-ink)">방법(How)을 아는 경우</div>
+<div style="background:var(--q-surface);padding:0.7rem;text-align:center;font-weight:700;color:var(--q-ink)">방법(How)을 모르는 경우</div>
+<div style="background:var(--q-surface);padding:0.7rem;text-align:center;font-weight:700;color:var(--q-ink)">대상(What)을<br>아는 경우</div>
+<div style="background:var(--q-surface);padding:0.7rem;text-align:center;color:var(--q-ink)">최적화<br><span style="font-size:0.78rem;color:var(--q-ink-muted)">(Optimization)</span></div>
+<div style="background:var(--q-surface);padding:0.7rem;text-align:center;color:var(--q-ink)">솔루션<br><span style="font-size:0.78rem;color:var(--q-ink-muted)">(Solution)</span></div>
+<div style="background:var(--q-surface);padding:0.7rem;text-align:center;font-weight:700;color:var(--q-ink)">대상(What)을<br>모르는 경우</div>
+<div style="background:var(--q-surface);padding:0.7rem;text-align:center;color:var(--q-ink)">통찰<br><span style="font-size:0.78rem;color:var(--q-ink-muted)">(Insight)</span></div>
+<div style="background:var(--q-surface);padding:0.7rem;text-align:center;color:var(--q-ink)">발견<br><span style="font-size:0.78rem;color:var(--q-ink-muted)">(Discovery)</span></div>
+</div>
+</div>
 
 1. **최적화 (Optimization)**: 분석 대상과 방법이 모두 명확한 상황이며, 효율성 극대화 및 비용 최소화를 목표로 한다.
 2. **솔루션 (Solution)**: 분석 대상은 명확하게 알고 있으나, 구체적인 분석 방법을 모를 때 해결책을 탐색하는 방식이다.

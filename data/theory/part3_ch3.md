@@ -152,9 +152,19 @@
 군집화를 하려면 개체 간 거리를 정의해야 하며, 변수의 속성에 따라 거리 측정법이 다르다.
 
 * **연속형 변수의 거리**
-  * **유클리드 거리(Euclidean Distance)**: 가장 일반적인 기하학적 최단 거리. `d(x,y) = √(Σ(xᵢ-yᵢ)²)`
-  * **맨하탄 거리(Manhattan Distance)**: 격자 모양의 도로를 따라 이동할 때의 거리. `d(x,y) = Σ|xᵢ-yᵢ|`
-  * **민코프스키 거리(Minkowski Distance)**: 유클리드와 맨하탄을 일반화한 거리(Lp Norm). `d(x,y) = (Σ|xᵢ-yᵢ|^p)^(1/p)` — p=1이면 맨하탄, p=2이면 유클리드 거리와 동일
+  * **유클리드 거리(Euclidean Distance)**: 가장 일반적인 기하학적 최단 거리.
+    <div style="text-align:center;margin:0.6rem 0;padding:0.6rem 1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink);font-size:1rem;font-style:italic">
+    d(x,y) = √( Σ (x<sub>i</sub> − y<sub>i</sub>)<sup>2</sup> )
+    </div>
+  * **맨하탄 거리(Manhattan Distance)**: 격자 모양의 도로를 따라 이동할 때의 거리.
+    <div style="text-align:center;margin:0.6rem 0;padding:0.6rem 1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink);font-size:1rem;font-style:italic">
+    d(x,y) = Σ |x<sub>i</sub> − y<sub>i</sub>|
+    </div>
+  * **민코프스키 거리(Minkowski Distance)**: 유클리드와 맨하탄을 일반화한 거리(Lp Norm).
+    <div style="text-align:center;margin:0.6rem 0;padding:0.6rem 1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink)">
+    <div style="font-size:1rem;font-style:italic">d(x,y) = ( Σ |x<sub>i</sub> − y<sub>i</sub>|<sup>p</sup> )<sup>1/p</sup></div>
+    <div style="font-size:0.78rem;color:var(--q-ink-muted);margin-top:0.3rem">p=1이면 맨하탄, p=2이면 유클리드 거리와 동일</div>
+    </div>
   * **마할라노비스 거리(Mahalanobis Distance)**: 변수 간의 상관관계(공분산)를 고려하여 확률분포를 반영한 통계적 거리
   * **체비셰프 거리(Chebyshev Distance)**: 변수 간 거리 차이의 최댓값을 기준으로 측정
 
@@ -198,7 +208,10 @@
 ### 6) 군집 성능 평가지표: 실루엣 계수 (Silhouette Coefficient)
 
 * **정의**: 군집화 완료 후, 개체들이 군집 내에서 얼마나 응집되어 있고 서로 다른 군집 간에는 얼마나 명확히 분리되어 있는지를 동시에 측정하는 지표
-* **산식**: `s(i) = (b(i) - a(i)) / max(a(i), b(i))`
+* **산식**:
+  <div style="text-align:center;margin:0.6rem 0;padding:0.6rem 1rem;background:var(--q-border);border-radius:0.75rem;color:var(--q-ink);font-size:1rem;font-style:italic">
+  s(i) = (b(i) − a(i)) / max(a(i), b(i))
+  </div>
   * a(i): 개체 i와 동일 군집 내 다른 개체들 간의 평균 거리
   * b(i): 개체 i와 가장 가까운 이웃 군집에 속한 개체들 간의 평균 거리
   * 범위: -1 ≤ s(i) ≤ 1
